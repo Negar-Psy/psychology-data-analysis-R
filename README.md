@@ -5,5 +5,5 @@ This repository contains small R projects analyzing open datasets in psychology 
 Each project demonstrates data wrangling, psychometrics, modeling, and reproducible reporting with **R**.
 
 ## Projects
-- **01-students-internet-addiction** → Analysis of the link Internet Addiction and Mental Health among Malawian college students  
+- **01-students-internet-addiction** → Analysis of the link between Internet Addiction and Mental Health among Malawian college students  
   
