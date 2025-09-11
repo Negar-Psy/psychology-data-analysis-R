@@ -48,13 +48,13 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-
-# OS/editor noise
+# --- Project-specific additions ---
+# OS/editor junk
 .DS_Store
 .vscode/
 .idea/
 
-
+# renv (installed packages; keep renv.lock tracked)
 renv/library/
 renv/staging/
 
@@ -62,10 +62,13 @@ renv/staging/
 _targets/
 _targets.rds
 
-# Quarto caches & rendered sites 
+# Quarto build caches and sites
 .quarto/
 reports/_freeze/
 reports/_site/
 
-# Never commit raw data 
+# Raw data (download at build time, never commit)
 data-raw/
+
+
+
