@@ -1,1 +1,145 @@
+# Data: Internet Addiction & Mental Health among College Students (Malawi)
 
+## Source & Citation  
+- Data paper: *Data from “Internet Addiction and Mental Health among College Students in Malawi”*, *Journal of Open Psychology Data*.  
+  DOI: https://doi.org/10.5334/jopd.72  
+- Dataset (files): Mendeley Data, DOI: https://doi.org/10.17632/xbfbcy5bhv.3  
+- License: **CC BY 4.0** — free to use, share, and adapt with attribution.  
+
+Mwakilama, E. P., Jamu, E. S., Senganimalunje, L., & Manda, T. D. (2022). *Data on Internet Addiction and Mental Health among university students in Malawi* (Version 3) [Data set]. Mendeley Data. https://doi.org/10.17632/xbfbcy5bhv.3  
+
+---
+
+## About the Dataset  
+- **Population:** 984 tertiary students in Malawi  
+- **Period:** May–July 2018  
+- **Design:** Cross-sectional, self-report survey  
+- **Instruments:**  
+  - **Internet Addiction Test (IAT)** — 20 Likert items (0–5 scale, 99 = missing)  
+  - **Self-Reporting Questionnaire (SRQ-20)** — 20 Yes/No items (0 = Yes, 1 = No, 7 = missing)  
+
+---
+
+## Derived Variables (in dataset)  
+- **Internet_usg** — Total IAT score (sum of 20 IAT items). Range: 0–90 observed (theoretical max = 100).  
+- **Internet_Add** — Categorical IAT severity derived from Internet_usg:  
+  - 0 = <20 (none)  
+  - 1 = 20–39 (mild)  
+  - 2 = 40–69 (moderate)  
+  - 3 = 70–100 (severe)  
+- **SQR_Total** — Raw SRQ-20 total (0–20). Includes missing values.  
+- **New_SQR_total** — Clean SRQ-20 total (0–20). No missing values.  
+- **SQR_catg** — Categorized SRQ-20:  
+  - 0 = No probable common mental disorder (CMD)  
+  - 1 = Probable CMD (cutoff ≥ 8)  
+- **filter__** — Convenience flag: 1 = probable CMD, 0 = otherwise.  
+
+---
+
+## Variable Derivation Flow  
+
+
+IAT items (20 Likert items) 
+   │
+   ▼
+Internet_usg (total score) 
+   │
+   ▼
+Internet_Add (categorical severity)
+```
+
+```
+SRQ-20 items (20 Yes/No items) 
+   │
+   ▼
+SQR_Total (raw total, with missing) 
+   │
+   ▼
+New_SQR_total (clean total) 
+   │
+   ▼
+SQR_catg (probable CMD cutoff ≥ 8) 
+   │
+   ▼
+filter__ (binary flag)
+```
+
+---
+
+## Data Dictionary 
+
+### Identifier  
+- **ID** — respondent identity (string).  
+
+### Internet Addiction totals/categories  
+- **Internet_usg** — IAT total score (0–90 observed).  
+- **Internet_Add** — IAT categorical severity (0 = none, 1 = mild, 2 = moderate, 3 = severe).  
+
+### Demographics  
+- **Gender** — 0 = Female; 1 = Male; 2 = Prefer not to say.  
+- **Age_grp** — 0 = 15–19; 1 = 20–24; 2 = 25–29; 3 = 30–34; 4 = 35–39; 5 = 40+; 9 = Missing.  
+- **Level_study** — 0 = Undergraduate; 1 = Postgraduate; 7 = Missing.  
+- **Yr_study** — 0 = Year 1; 1 = Year 2; 2 = Year 3; 3 = Year 4+; 7 = Missing.  
+- **Discipline** — 0 = Science; 1 = Humanities and Social Science; 7 = Missing.  
+
+### IAT Items (20 Likert items)  
+**Shared coding:** 0 = Does Not Apply; 1 = Rarely; 2 = Occasionally; 3 = Frequently; 4 = Often; 5 = Always; 99 = Missing.  
+
+- stay_online — Stay online longer than intended?  
+- neglect_chores — Neglect chores due to Internet use?  
+- excitement — Prefer Internet excitement to intimacy with partner?  
+- relationships — Form relationships online?  
+- life_complaint — Others complain about time spent online?  
+- school_work — Schoolwork suffers due to the Internet?  
+- email_socialmedia — Check email/social media before other tasks?  
+- job_performance — Job performance affected by Internet use?  
+- defensive_secretive — Defensive/secretive about online activity?  
+- disturbing_thoughts — Use the Internet to block disturbing thoughts?  
+- online_anticipation — Anticipate next time online?  
+- life_no_internet — Fear life without Internet would be boring/empty?  
+- act_annoyed — Snap/yell when disturbed while online?  
+- late_night_logins — Lose sleep due to late-night logins?  
+- feel_preoccupied — Preoccupied/fantasize about the Internet offline?  
+- online_glued — Say “just a few more minutes” online?  
+- time_cutdown — Fail to reduce online time?  
+- hide_online — Hide the amount of time spent online?  
+- more_online_time — Choose Internet over social activities?  
+- feel_depressed — Feel depressed/moody when offline, relieved online?  
+
+
+### SRQ-20 Items (Self-Reporting Questionnaire)
+**Shared coding:** 0 = Yes; 1 = No; 7 = Missing.  
+
+- **headache** — Do you often have headaches?  
+- **appetite** — Is your appetite poor?  
+- **sleep** — Do you sleep badly?  
+- **fear** — Are you easily frightened?  
+- **shaking** — Do your hands shake?  
+- **nervous** — Do you feel nervous, tense, or worried?  
+- **digestion** — Is your digestion poor?  
+- **troubled** — Do you have trouble thinking clearly?  
+- **unhappy** — Do you feel unhappy?  
+- **cry** — Do you cry more than usual?  
+- **enjoyment** — Do you find it difficult to enjoy your daily activities?  
+- **decisions** — Do you find it difficult to make decisions?  
+- **work** — Is your daily work suffering?  
+- **play** — Are you unable to play a useful part in life?  
+- **interest** — Have you lost interest in things?  
+- **worthless** — Do you feel that you are a worthless person?  
+- **suicide** — Has the thought of ending your life been on your mind?  
+- **tiredness** — Do you feel tired all the time?  
+- **uncomfortable** — Do you have uncomfortable feelings in your stomach?  
+- **easily_tired** — Are you easily tired?  
+
+**Totals/Flags:**  
+- **SQR_Total** — Original SRQ-20 total (0–20).  
+- **New_SQR_total** — Clean SRQ-20 total (0–20).  
+- **SQR_catg** — 0 = No probable CMD; 1 = Probable CMD.  
+- **filter__** — Binary flag mirroring SQR_catg.  
+
+---
+
+## Ethics & Limitations  
+- Cross-sectional, self-report survey (IAT, SRQ-20).  
+- SRQ-20 ≥ 8 indicates *probable CMD* (screening only, not diagnosis).  
+- Malawi-specific context; generalization to other populations should be cautious.  
