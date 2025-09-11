@@ -47,3 +47,25 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
+
+
+renv/library/
+renv/staging/
+
+# targets pipeline artifacts
+_targets/
+_targets.rds
+
+# Quarto caches & rendered sites 
+.quarto/
+reports/_freeze/
+reports/_site/
+
+# Never commit raw data 
+data-raw/
