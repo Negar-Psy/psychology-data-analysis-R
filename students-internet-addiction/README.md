@@ -1,7 +1,7 @@
-# Students’ Mental Health Project
+# Students’ Internet Addiction Project
 
-Research question: How do stress levels and sleep duration relate to mental health?  
-This folder will contain:
-- `data/` → dataset(s) and a README
+Research question: How do internet addiction relate to mental health?  
+This folder contains:
+- `data/` → dataset and a README
 - `analysis.R` → R script
 - `report.qmd` → Quarto report
