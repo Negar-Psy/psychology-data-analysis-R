@@ -1,6 +1,8 @@
 # --- Installing equired packages ---
 renv::install(c("readr","dplyr","stringr","janitor","here", "tidyr"))
 
+-----------------------------------------------------------------------
+
 # --- Loading equired packages ---
 
 library(readr)  # for reading csv files
@@ -10,16 +12,24 @@ library(janitor)  # for easy data cleaning
 library(here)  # for reliable paths across projects
 library(tidyr)  # for reshaping data
 
-# --- Reading raw data ---
+-----------------------------------------------------------------------
+
+  # --- Reading raw data ---
 raw_data <- read_csv(here("data-raw", "Internet_Addiction_Malawi_Data.csv"))
 
+-----------------------------------------------------------------------
+  
 # --- Quick checking ---
 glimpse(raw_data)
 head(raw_data)
 
+-----------------------------------------------------------------------
+  
 # --- Checking original column names ---
 colnames(raw_data)
 
+-----------------------------------------------------------------------
+  
 # --- Renaming columns for readability ---
 new_data <- raw_data %>%
   rename(
@@ -30,11 +40,40 @@ new_data <- raw_data %>%
     study_level= `Level of Study`, 
     year_of_study = `Indicate your year of study`, 
     discipline=`Indicate your discipline of study`, 
-    srq_total=...48)
+    unknown=...48)
 
 colnames(new_data) [8:27] <- paste0("iat_", 1:20)
 colnames(new_data) [28:47] <- paste0("srq_", 1:20)
 colnames(new_data)
+
+-----------------------------------------------------------------------
+  
+# --- Cleaning Columns ---
+# --- Cleaning gender column ---
+# --- Identifying all unique response categories from gender ---
+unique_gender_responses <- new_data %>%
+  select(gender) %>%
+  unlist () %>%
+  unique() 
+print(unique_gender_responses)
+
+# --- Cleaning "prefer not to say" responses in gender ---
+new_data <- new_data %>%
+  mutate(gender= na_if(gender, "Prefer Not to Say"))
+
+# --- Converting gender to factor with 2 levels ---
+new_data <- new_data %>%
+  mutate(gender = as.factor(gender))
+
+# --- Checking gender factor levels ---
+levels(new_data$gender)
+
+-----------------------------------------------------------------------
+
+
+
+
+
 
 # --- Identifying all unique response categories from IAT items ---
 unique_iat_responses <- new_data %>%
@@ -76,14 +115,17 @@ new_data <- new_data %>%
   mutate(across(starts_with("srq_"), ~ as.integer(!is.na(.))))
 
 head(select(new_data, starts_with("srq_")))
+new_data$total_srq
+
 
 # --- Checking the Types ---
 sapply(select(new_data, starts_with("iat_")), class)
 sapply(select(new_data, starts_with("srq_")), class)
 
+
 # --- Saving Clean Data ---
 dir.create(here("data"), showWarnings = FALSE)
-write_csv(new_data, here("data", "Internet_Addiction_Malawi_Data_clean.csv"))
+write.csv(new_data, here("data", "Internet_Addiction_Malawi_Data_clean.csv"))
 
 
 
