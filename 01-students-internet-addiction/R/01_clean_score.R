@@ -1,9 +1,9 @@
-# --- Installing equired packages ---
+# --- Installing required packages ---
 renv::install(c("readr","dplyr","stringr","janitor","here", "tidyr"))
 
 -----------------------------------------------------------------------
 
-# --- Loading equired packages ---
+# --- Loading required packages ---
 
 library(readr)  # for reading csv files
 library(dplyr)  # for data manipulation
@@ -14,7 +14,7 @@ library(tidyr)  # for reshaping data
 
 -----------------------------------------------------------------------
 
-  # --- Reading raw data ---
+# --- Reading raw data ---
 raw_data <- read_csv(here("data-raw", "Internet_Addiction_Malawi_Data.csv"))
 
 -----------------------------------------------------------------------
@@ -35,7 +35,7 @@ new_data <- raw_data %>%
   rename(
     id=SN, 
     gender=Gender, 
-    age=`Age group`, 
+    age_group=`Age group`, 
     institution_name = `University/College`, 
     study_level= `Level of Study`, 
     year_of_study = `Indicate your year of study`, 
@@ -50,7 +50,7 @@ colnames(new_data)
   
 # --- Cleaning Columns ---
 # --- Cleaning gender column ---
-# --- Identifying all unique response categories from gender ---
+# --- Identifying all unique responses in gender ---
 unique_gender_responses <- new_data %>%
   select(gender) %>%
   unlist () %>%
@@ -70,11 +70,69 @@ levels(new_data$gender)
 
 -----------------------------------------------------------------------
 
+# --- Cleaning age_group column ---
+# --- Identifying all the unique responses in age_group ---
 
+unique_age_responses <- new_data %>%
+  select(age_group) %>%
+  unlist() %>%
+  unique()
+print(unique_age_responses)
+  
+# --- Cleaning "9=Missing" responses ---
+new_data <- new_data %>%
+mutate(age_group= na_if(age_group, "9=Missing"))
 
+# --- Converting age_group to a factor variable with 6 levels ---
+new_data <- new_data %>%
+  mutate(age_group = as.factor(age_group))
 
+# --- Checking age_group levels ---
+levels(new_data$age_group)
 
+-----------------------------------------------------------------------
 
+# --- Cleaning study_level column ---
+# --- Identifying all the unique responses in study_level ---
+unique_study_responses <- new_data %>%
+  select(study_level) %>%
+  unlist() %>%
+  unique() 
+print(unique_study_responses)
+
+# --- Cleaning "7=Missing" responses ---
+new_data <- new_data %>%
+  mutate(study_level = na_if(study_level, "7=Missing"))
+
+# --- Converting study_level to a factor variable with 2 levels ---
+new_data <- new_data %>%
+  mutate(study_level = as.factor(study_level))
+
+# --- Checking age_group levels ---
+levels(new_data$study_level)
+
+-----------------------------------------------------------------------
+
+# --- Cleaning year_of_study column ---
+# --- Identifying all the unique responses in year_of_study 
+unique_year_responses <- new_data %>%
+  select(year_of_study) %>%
+  unlist() %>%
+  unique() %>%
+print(unique_year_responses)
+
+# --- Cleaning "7=Missing" responses ---
+new_data <- new_data %>%
+  mutate(year_of_study = na_if(year_of_study, "7=Missing"))
+
+# --- Converting year_of_study to a factor variable with 5 levels ---
+new_data <- new_data %>%
+  mutate(year_of_study = as.factor(year_of_study))
+
+# --- Checking year_of_study levels ---
+levels(new_data$study_level)
+------------------------------------------------------------------------  
+    
 # --- Identifying all unique response categories from IAT items ---
 unique_iat_responses <- new_data %>%
   select(starts_with("iat_")) %>%
@@ -82,8 +140,7 @@ unique_iat_responses <- new_data %>%
   unique()
 print(unique_iat_responses)
   
-
-# --- Cleaning IAT Responses ---
+# --- Cleaning IAT responses ---
 
 iat_map <- c ("1=Rarely" = 1,
               "2=Occasionally" = 2,
@@ -99,7 +156,8 @@ new_data <- new_data %>%
 
 head(select(new_data, starts_with("iat_")))
 
-
+-----------------------------------------------------------------------
+  
 # --- Identifying all unique response categories from SRQ items ---
 unique_srq_responses <- new_data %>%
   select(starts_with("srq_")) %>%
@@ -107,9 +165,8 @@ unique_srq_responses <- new_data %>%
   unique()
 print(unique_srq_responses)
 
-
-# --- Cleaning SRQ Responses ---
-# Changing NA responses to 0
+# --- Cleaning SRQ responses ---
+# --- Changing NA responses to 0 ---
 
 new_data <- new_data %>%
   mutate(across(starts_with("srq_"), ~ as.integer(!is.na(.))))
@@ -117,13 +174,13 @@ new_data <- new_data %>%
 head(select(new_data, starts_with("srq_")))
 new_data$total_srq
 
-
-# --- Checking the Types ---
+# --- Checking the types ---
 sapply(select(new_data, starts_with("iat_")), class)
 sapply(select(new_data, starts_with("srq_")), class)
 
-
-# --- Saving Clean Data ---
+-----------------------------------------------------------------------
+  
+# --- Saving clean data ---
 dir.create(here("data"), showWarnings = FALSE)
 write.csv(new_data, here("data", "Internet_Addiction_Malawi_Data_clean.csv"))
 
