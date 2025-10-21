@@ -6,9 +6,9 @@
 
 # Outputs: An in-memory tibble called `data_internet` for downstream scripts.
 
+#-----------------------------------------------------------------------
 
-
-# --- Installing Packages ---
+# --- Installing and loading packages ---
 
 renv::install(c("readr", "dplyr", "stringr", "janitor", "here", "tidyr", "psych","ggplot2", "skimr"))
 
@@ -23,13 +23,18 @@ library(psych) # For descriptive statistics
 library(ggplot2) # For visualizations
 library(skimr) # For quick data summaries
 
-# --- Reading the Cleaned Dataset ---
+#-----------------------------------------------------------------------
+  
+# --- Reading the cleaned dataset ---
 data_path <- here("data", "Internet_Addiction_Malawi_Data_clean.csv")
 data_internet <- read.csv(data_path)
 
-# --- Quick Checks ---
+#-----------------------------------------------------------------------
+  
+# --- Quick checks ---
 message("Loaded file:", data_path)
 rows <- nrow(data_internet)
 cols <- ncol(data_internet)
 message("Size:", "rows=", rows, ", ", "cols=", cols)
 
+#-----------------------------------------------------------------------

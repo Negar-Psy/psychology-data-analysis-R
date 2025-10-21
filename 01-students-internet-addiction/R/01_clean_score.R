@@ -1,7 +1,7 @@
 # --- Installing required packages ---
 renv::install(c("readr","dplyr","stringr","janitor","here", "tidyr"))
 
------------------------------------------------------------------------
+#-----------------------------------------------------------------------
 
 # --- Loading required packages ---
 
@@ -12,23 +12,23 @@ library(janitor)  # for easy data cleaning
 library(here)  # for reliable paths across projects
 library(tidyr)  # for reshaping data
 
------------------------------------------------------------------------
+#-----------------------------------------------------------------------
 
 # --- Reading raw data ---
 raw_data <- read_csv(here("data-raw", "Internet_Addiction_Malawi_Data.csv"))
 
------------------------------------------------------------------------
+#-----------------------------------------------------------------------
   
 # --- Quick checking ---
 glimpse(raw_data)
 head(raw_data)
 
------------------------------------------------------------------------
+#-----------------------------------------------------------------------
   
 # --- Checking original column names ---
 colnames(raw_data)
 
------------------------------------------------------------------------
+#-----------------------------------------------------------------------
   
 # --- Renaming columns for readability ---
 new_data <- raw_data %>%
@@ -46,7 +46,7 @@ colnames(new_data) [8:27] <- paste0("iat_", 1:20)
 colnames(new_data) [28:47] <- paste0("srq_", 1:20)
 colnames(new_data)
 
------------------------------------------------------------------------
+#-----------------------------------------------------------------------
   
 # --- Cleaning Columns ---
 # --- Cleaning gender column ---
@@ -68,7 +68,7 @@ new_data <- new_data %>%
 # --- Checking gender factor levels ---
 levels(new_data$gender)
 
------------------------------------------------------------------------
+#-----------------------------------------------------------------------
 
 # --- Cleaning age_group column ---
 # --- Identifying all the unique responses in age_group ---
@@ -90,7 +90,7 @@ new_data <- new_data %>%
 # --- Checking age_group levels ---
 levels(new_data$age_group)
 
------------------------------------------------------------------------
+#-----------------------------------------------------------------------
 
 # --- Cleaning study_level column ---
 # --- Identifying all the unique responses in study_level ---
@@ -111,7 +111,7 @@ new_data <- new_data %>%
 # --- Checking age_group levels ---
 levels(new_data$study_level)
 
------------------------------------------------------------------------
+#-----------------------------------------------------------------------
 
 # --- Cleaning year_of_study column ---
 # --- Identifying all the unique responses in year_of_study 
@@ -131,7 +131,8 @@ new_data <- new_data %>%
 
 # --- Checking year_of_study levels ---
 levels(new_data$study_level)
-------------------------------------------------------------------------  
+
+#------------------------------------------------------------------------  
     
 # --- Identifying all unique response categories from IAT items ---
 unique_iat_responses <- new_data %>%
@@ -156,7 +157,7 @@ new_data <- new_data %>%
 
 head(select(new_data, starts_with("iat_")))
 
------------------------------------------------------------------------
+#-----------------------------------------------------------------------
   
 # --- Identifying all unique response categories from SRQ items ---
 unique_srq_responses <- new_data %>%
@@ -178,7 +179,7 @@ new_data$total_srq
 sapply(select(new_data, starts_with("iat_")), class)
 sapply(select(new_data, starts_with("srq_")), class)
 
------------------------------------------------------------------------
+#-----------------------------------------------------------------------
   
 # --- Saving clean data ---
 dir.create(here("data"), showWarnings = FALSE)

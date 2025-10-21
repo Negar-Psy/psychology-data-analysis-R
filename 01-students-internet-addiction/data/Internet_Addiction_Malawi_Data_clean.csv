@@ -1,23 +1,23 @@
-"","id","gender","age","institution_name","study_level","year_of_study","discipline","iat_1","iat_2","iat_3","iat_4","iat_5","iat_6","iat_7","iat_8","iat_9","iat_10","iat_11","iat_12","iat_13","iat_14","iat_15","iat_16","iat_17","iat_18","iat_19","iat_20","srq_1","srq_2","srq_3","srq_4","srq_5","srq_6","srq_7","srq_8","srq_9","srq_10","srq_11","srq_12","srq_13","srq_14","srq_15","srq_16","srq_17","srq_18","srq_19","srq_20","unknown"
-"1",1,"Male","20-24","Chancellor College","Postgraduate","7=Missing","Science",3,1,NA,3,1,2,3,1,1,1,2,5,1,NA,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
-"2",2,"Male","20-24","Chancellor College","Postgraduate","7=Missing","Science",NA,1,NA,1,1,1,1,NA,NA,NA,NA,2,NA,NA,NA,1,1,NA,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"","id","gender","age_group","institution_name","study_level","year_of_study","discipline","iat_1","iat_2","iat_3","iat_4","iat_5","iat_6","iat_7","iat_8","iat_9","iat_10","iat_11","iat_12","iat_13","iat_14","iat_15","iat_16","iat_17","iat_18","iat_19","iat_20","srq_1","srq_2","srq_3","srq_4","srq_5","srq_6","srq_7","srq_8","srq_9","srq_10","srq_11","srq_12","srq_13","srq_14","srq_15","srq_16","srq_17","srq_18","srq_19","srq_20","unknown"
+"1",1,"Male","20-24","Chancellor College","Postgraduate",NA,"Science",3,1,NA,3,1,2,3,1,1,1,2,5,1,NA,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+"2",2,"Male","20-24","Chancellor College","Postgraduate",NA,"Science",NA,1,NA,1,1,1,1,NA,NA,NA,NA,2,NA,NA,NA,1,1,NA,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "3",3,"Male","25-29","Chancellor College","Undergraduate","4+","Science",3,4,NA,2,5,4,4,5,4,2,3,5,3,NA,3,5,4,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10
 "4",4,"Female","20-24","Chancellor College","Undergraduate","4+","Science",1,2,NA,4,NA,NA,1,NA,NA,2,3,5,5,NA,2,1,NA,NA,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-"5",5,"Female","20-24","College of Medicine","Postgraduate","7=Missing","Science",4,3,2,1,2,2,4,3,2,4,2,2,1,NA,1,4,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
+"5",5,"Female","20-24","College of Medicine","Postgraduate",NA,"Science",4,3,2,1,2,2,4,3,2,4,2,2,1,NA,1,4,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "6",6,"Female","25-29","Chancellor College","Undergraduate","4+","Humanities and Social Science",2,2,3,3,1,4,2,1,2,2,1,5,1,NA,2,4,5,5,2,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "7",7,"Male","25-29","Lilongwe University of Science and Technology","Undergraduate","3","Science",2,2,2,3,1,1,2,2,2,2,2,2,1,NA,2,2,2,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "8",8,"Male","20-24","Chancellor College","Undergraduate","3","Science",5,3,2,2,1,NA,3,2,1,4,5,5,2,NA,3,4,2,1,4,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "9",9,"Female","25-29","Chancellor College","Undergraduate","4+","Science",2,NA,NA,1,NA,NA,2,NA,NA,NA,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "10",10,"Male","25-29","Chancellor College","Undergraduate","4+","Science",4,2,3,4,2,2,2,2,1,3,2,4,1,NA,2,5,2,2,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
-"11",11,"Female","35-39","Chancellor College","Postgraduate","7=Missing","Science",3,NA,NA,1,2,NA,5,1,NA,1,2,NA,2,NA,5,NA,2,NA,4,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"11",11,"Female","35-39","Chancellor College","Postgraduate",NA,"Science",3,NA,NA,1,2,NA,5,1,NA,1,2,NA,2,NA,5,NA,2,NA,4,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "12",12,"Male","25-29","Chancellor College","Undergraduate","3","Science",2,2,1,3,2,2,3,2,2,1,2,3,1,NA,2,1,2,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
-"13",13,"Female","25-29","Chancellor College","Postgraduate","7=Missing","Science",5,5,5,1,5,5,5,5,1,1,1,NA,1,NA,4,5,5,5,5,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,14
-"14",14,"Male","25-29","Chancellor College","Postgraduate","7=Missing","Science",2,2,1,1,2,1,3,1,1,1,1,1,1,NA,1,2,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"13",13,"Female","25-29","Chancellor College","Postgraduate",NA,"Science",5,5,5,1,5,5,5,5,1,1,1,NA,1,NA,4,5,5,5,5,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,14
+"14",14,"Male","25-29","Chancellor College","Postgraduate",NA,"Science",2,2,1,1,2,1,3,1,1,1,1,1,1,NA,1,2,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "15",15,"Female","15-19","Chancellor College","Undergraduate","1","Science",4,3,5,5,5,NA,5,NA,5,1,5,5,5,5,5,5,5,4,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "16",16,"Male","25-29","Chancellor College","Undergraduate","4+","Science",2,1,2,3,NA,NA,3,NA,1,1,4,1,1,1,NA,2,4,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "17",17,"Male","20-24","Chancellor College","Undergraduate","3","Science",3,3,2,2,3,3,3,3,3,3,3,3,3,4,3,3,4,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
-"18",18,"Female","25-29","Chancellor College","Postgraduate","7=Missing","Science",NA,1,1,NA,1,NA,1,1,NA,1,NA,1,1,NA,NA,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,16
-"19",19,"Female","30-34","Chancellor College","Postgraduate","7=Missing","Science",3,2,3,1,3,4,4,3,4,4,4,4,4,4,4,4,4,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,13
+"18",18,"Female","25-29","Chancellor College","Postgraduate",NA,"Science",NA,1,1,NA,1,NA,1,1,NA,1,NA,1,1,NA,NA,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,16
+"19",19,"Female","30-34","Chancellor College","Postgraduate",NA,"Science",3,2,3,1,3,4,4,3,4,4,4,4,4,4,4,4,4,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,13
 "20",20,"Female","20-24","Chancellor College","Undergraduate","4+","Science",2,2,2,1,1,1,2,1,1,2,2,2,2,2,2,2,2,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
 "21",21,"Male","25-29","Chancellor College","Undergraduate","2","Science",3,1,NA,2,1,NA,2,1,5,3,4,5,4,3,3,5,2,5,3,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "22",22,"Male","20-24","Chancellor College","Undergraduate","4+","Science",3,1,1,1,1,1,4,1,1,1,3,2,1,1,2,2,NA,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
@@ -26,28 +26,28 @@
 "25",25,"Female","20-24","Chancellor College","Undergraduate","4+","Science",2,2,2,2,NA,NA,2,2,NA,NA,1,2,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "26",26,"Female","20-24","Daeyang University","Undergraduate","3","Science",5,5,5,5,5,1,5,4,1,5,5,5,5,5,5,5,5,4,1,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "27",27,"Male","25-29","Chancellor College","Undergraduate","4+","Science",3,2,2,3,2,3,3,3,2,2,3,3,2,3,3,3,3,2,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
-"28",28,"Male","35-39","Chancellor College","Postgraduate","7=Missing","Science",3,2,3,2,1,1,3,1,1,1,2,3,1,1,2,2,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"28",28,"Male","35-39","Chancellor College","Postgraduate",NA,"Science",3,2,3,2,1,1,3,1,1,1,2,3,1,1,2,2,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "29",29,"Female","20-24","Chancellor College","Undergraduate","4+","Humanities and Social Science",4,3,3,2,5,1,3,NA,4,5,5,5,4,5,4,5,5,NA,5,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
 "30",30,"Male","20-24","Daeyang University","Undergraduate","3","Science",4,2,2,1,1,1,4,2,5,5,1,2,2,1,2,3,3,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11
 "31",31,"Male","15-19","Daeyang University","Undergraduate","3","Science",4,3,1,1,1,1,4,2,1,NA,5,5,3,1,1,5,1,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-"32",32,"Female","20-24","Chancellor College","Postgraduate","7=Missing","Science",2,1,NA,2,2,NA,2,NA,2,NA,2,2,2,2,2,2,NA,1,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
+"32",32,"Female","20-24","Chancellor College","Postgraduate",NA,"Science",2,1,NA,2,2,NA,2,NA,2,NA,2,2,2,2,2,2,NA,1,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
 "33",33,"Female","20-24","Chancellor College","Undergraduate","3","Humanities and Social Science",2,1,4,4,2,1,2,1,3,4,3,4,1,3,2,2,2,1,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
 "34",34,"Female","20-24","Chancellor College","Undergraduate","2","Humanities and Social Science",3,1,1,NA,1,2,4,2,4,5,1,5,2,3,2,2,1,2,5,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10
 "35",35,"Male","25-29","Chancellor College","Undergraduate","2","Science",3,2,NA,NA,1,2,2,2,NA,NA,1,3,NA,2,2,1,2,NA,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "36",36,"Female","20-24","Chancellor College","Undergraduate","3","Humanities and Social Science",5,1,1,1,2,NA,2,NA,3,NA,2,3,NA,2,NA,3,2,2,4,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,8
 "37",37,"Male","30-34","Chancellor College","Undergraduate","1","Science",1,1,2,1,1,2,2,2,2,2,1,1,1,1,1,2,2,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-"38",38,"Male","30-34","Chancellor College","Postgraduate","7=Missing","Science",3,NA,1,3,NA,NA,3,NA,3,NA,1,3,1,NA,1,NA,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
-"39",39,"Male","30-34","Chancellor College","Postgraduate","7=Missing","Science",1,NA,1,1,NA,NA,2,NA,NA,NA,1,1,1,NA,NA,2,NA,NA,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"38",38,"Male","30-34","Chancellor College","Postgraduate",NA,"Science",3,NA,1,3,NA,NA,3,NA,3,NA,1,3,1,NA,1,NA,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
+"39",39,"Male","30-34","Chancellor College","Postgraduate",NA,"Science",1,NA,1,1,NA,NA,2,NA,NA,NA,1,1,1,NA,NA,2,NA,NA,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "40",40,"Male","30-34","Chancellor College","Undergraduate","2","Science",4,1,2,1,1,NA,1,1,1,NA,4,4,NA,NA,NA,1,NA,1,4,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "41",41,"Female","20-24","Chancellor College","Undergraduate","3","Humanities and Social Science",2,3,NA,1,1,NA,3,1,2,NA,1,1,1,1,2,3,1,2,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11
 "42",42,"Male","25-29","Chancellor College",NA,"4+","Science",NA,NA,NA,1,NA,NA,2,NA,1,NA,NA,5,NA,NA,NA,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "43",43,"Male","25-29","Chancellor College","Undergraduate","2","Science",2,1,NA,1,NA,NA,2,1,1,NA,1,1,1,1,1,2,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
 "44",44,"Male","30-34","Chancellor College","Undergraduate","2","Science",1,2,NA,1,1,1,1,1,1,2,1,5,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11
-"45",45,"Male","25-29","Chancellor College","Postgraduate","7=Missing","Science",3,2,NA,1,1,2,2,1,1,1,2,1,1,NA,NA,2,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-"46",46,"Male","20-24","MRC","7=Missing","3","Science",2,1,1,3,1,NA,1,1,1,1,1,1,1,3,3,3,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-"47",47,"Female","20-24","Chancellor College","Postgraduate","7=Missing","Science",3,1,1,3,1,1,3,1,1,1,1,1,1,1,1,NA,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"45",45,"Male","25-29","Chancellor College","Postgraduate",NA,"Science",3,2,NA,1,1,2,2,1,1,1,2,1,1,NA,NA,2,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"46",46,"Male","20-24","MRC",NA,"3","Science",2,1,1,3,1,NA,1,1,1,1,1,1,1,3,3,3,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"47",47,"Female","20-24","Chancellor College","Postgraduate",NA,"Science",3,1,1,3,1,1,3,1,1,1,1,1,1,1,1,NA,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "48",48,"Male","35-39","Chancellor College","Undergraduate","1","Science",2,1,1,1,1,NA,2,1,2,2,2,2,2,2,2,2,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
-"49",49,"Male","30-34","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+"49",49,"Male","30-34","Chancellor College","Postgraduate",NA,"Humanities and Social Science",2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "50",50,"Male","25-29","Chancellor College","Undergraduate","2","Humanities and Social Science",4,2,1,2,1,3,2,3,4,4,3,3,1,2,3,4,3,3,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,8
 "51",51,"Female","20-24","Chancellor College","Undergraduate","1","Science",2,NA,3,1,1,2,1,NA,1,1,2,1,2,3,2,2,3,NA,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "52",52,"Male","20-24","Chancellor College","Undergraduate","1","Science",5,3,NA,3,3,5,5,3,3,2,5,4,1,3,2,5,5,3,NA,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,12
@@ -91,7 +91,7 @@
 "90",90,"Male","20-24","Chancellor College","Undergraduate","1","Science",2,1,3,1,4,3,2,3,1,1,2,3,NA,4,4,3,1,5,5,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,8
 "91",91,"Male","20-24","Chancellor College","Undergraduate","1","Science",2,2,2,NA,1,3,2,4,2,3,1,3,2,3,2,3,2,3,3,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10
 "92",92,"Female","20-24","Chancellor College","Undergraduate","3","Science",4,4,3,4,1,2,4,3,3,4,4,3,2,4,4,4,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,13
-"93",93,"Male","40+","Chancellor College","Postgraduate","7=Missing","Science",1,1,1,1,1,1,2,2,1,NA,1,2,2,2,1,1,1,2,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+"93",93,"Male","40+","Chancellor College","Postgraduate",NA,"Science",1,1,1,1,1,1,2,2,1,NA,1,2,2,2,1,1,1,2,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "94",94,"Female","25-29",NA,"Undergraduate","2","Humanities and Social Science",3,1,3,3,2,1,4,NA,2,5,NA,1,2,1,2,NA,4,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,9
 "95",95,"Female","20-24","Chancellor College","Undergraduate","1","Science",3,2,NA,1,1,NA,1,NA,1,3,3,1,3,4,NA,1,1,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "96",96,"Male","20-24",NA,"Undergraduate","1","Science",4,2,4,4,2,4,3,3,3,3,2,2,3,4,4,5,3,4,4,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
@@ -109,14 +109,14 @@
 "108",108,"Female","20-24","Chancellor College","Undergraduate","3","Humanities and Social Science",3,2,NA,NA,1,2,4,2,NA,3,1,3,NA,1,1,3,2,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "109",109,"Female","15-19",NA,"Undergraduate","1","Science",1,NA,NA,3,NA,1,NA,NA,2,3,NA,NA,5,4,NA,5,4,NA,NA,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "110",110,"Male","20-24","Chancellor College","Undergraduate","1","Science",3,NA,NA,NA,1,NA,NA,NA,3,1,4,3,NA,1,4,1,1,NA,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-"111",111,"Female","30-34",NA,"7=Missing","3","Science",2,1,NA,1,1,NA,1,NA,NA,NA,NA,2,NA,1,NA,1,1,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-"112",112,"Prefer Not to Say","20-24",NA,"7=Missing","1","Science",2,1,NA,4,NA,1,3,NA,1,NA,NA,5,1,5,1,4,2,3,5,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
+"111",111,"Female","30-34",NA,NA,"3","Science",2,1,NA,1,1,NA,1,NA,NA,NA,NA,2,NA,1,NA,1,1,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"112",112,NA,"20-24",NA,NA,"1","Science",2,1,NA,4,NA,1,3,NA,1,NA,NA,5,1,5,1,4,2,3,5,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
 "113",113,"Male","15-19","Chancellor College","Undergraduate","1","Science",1,NA,NA,4,1,NA,1,NA,NA,3,3,3,1,3,3,5,1,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "114",114,"Male","20-24",NA,"Undergraduate","1","7=Missing",1,NA,1,NA,NA,1,NA,1,NA,NA,NA,1,NA,1,1,1,4,NA,2,NA,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "115",115,"Male","25-29","Chancellor College","Undergraduate","1","Science",1,2,2,2,NA,NA,NA,NA,NA,1,1,NA,NA,3,NA,1,2,NA,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-"116",116,"Male","20-24","Chancellor College","Undergraduate","7=Missing","Science",3,1,NA,1,2,NA,NA,2,2,2,NA,2,2,NA,2,2,NA,2,2,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-"117",117,"Male","35-39","Chancellor College",NA,"7=Missing","Science",2,NA,NA,1,NA,NA,2,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-"118",118,"Female","30-34",NA,"7=Missing","1","Science",2,2,3,2,NA,4,NA,NA,NA,4,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"116",116,"Male","20-24","Chancellor College","Undergraduate",NA,"Science",3,1,NA,1,2,NA,NA,2,2,2,NA,2,2,NA,2,2,NA,2,2,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"117",117,"Male","35-39","Chancellor College",NA,NA,"Science",2,NA,NA,1,NA,NA,2,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"118",118,"Female","30-34",NA,NA,"1","Science",2,2,3,2,NA,4,NA,NA,NA,4,NA,NA,2,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "119",119,"Male","25-29","Chancellor College","Undergraduate","1","Science",2,2,4,1,2,NA,NA,NA,5,5,NA,5,3,5,3,5,NA,NA,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,12
 "120",120,"Female","20-24","Chancellor College","Undergraduate","1","Science",5,3,2,3,5,3,1,3,4,3,5,2,2,2,1,3,3,2,4,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,13
 "121",121,"Male","20-24",NA,"Undergraduate","1","Science",2,NA,NA,1,NA,NA,1,NA,NA,1,2,2,NA,1,NA,2,2,2,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
@@ -127,7 +127,7 @@
 "126",126,"Male","20-24",NA,"Undergraduate","2","Science",2,4,3,2,4,2,3,2,1,3,NA,3,2,NA,2,2,3,NA,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10
 "127",127,"Male","20-24",NA,"Undergraduate","2","Science",3,2,3,4,NA,1,4,2,NA,5,3,5,4,5,3,2,2,4,2,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
 "128",128,"Male","20-24",NA,"Undergraduate","2","Science",2,1,NA,4,2,4,1,NA,2,NA,NA,1,5,4,NA,2,5,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-"129",129,"Male","20-24",NA,"Postgraduate","7=Missing","Science",1,2,4,2,1,4,2,2,2,3,1,2,1,1,1,1,2,3,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
+"129",129,"Male","20-24",NA,"Postgraduate",NA,"Science",1,2,4,2,1,4,2,2,2,3,1,2,1,1,1,1,2,3,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
 "130",130,"Male","25-29","Chancellor College","Undergraduate","3","Science",2,1,1,NA,NA,1,3,1,1,2,1,3,1,NA,NA,NA,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "131",131,"Male","20-24","Chancellor College","Undergraduate","1","Science",3,1,2,3,NA,NA,1,1,2,NA,1,5,2,3,2,2,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "132",132,"Male","15-19","Chancellor College","Undergraduate","2","Science",1,NA,2,5,1,NA,3,NA,1,NA,2,4,1,2,5,5,2,NA,2,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
@@ -158,8 +158,8 @@
 "157",157,"Female","20-24","Chancellor College","Undergraduate","3","Humanities and Social Science",2,1,NA,1,NA,NA,NA,NA,NA,NA,2,2,2,1,NA,NA,NA,NA,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "158",158,"Male","15-19","Chancellor College","Undergraduate","1","Science",3,2,NA,5,NA,2,NA,NA,5,2,NA,5,2,NA,NA,3,5,NA,4,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,8
 "159",159,"Female","15-19","Chancellor College","Undergraduate","1","Science",2,1,NA,5,NA,NA,NA,NA,1,1,1,NA,1,1,1,4,NA,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
-"160",160,"Male","20-24","Chancellor College","Postgraduate","7=Missing","Science",3,2,5,4,2,1,1,NA,4,2,2,5,3,5,3,5,4,2,5,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
-"161",161,"Male","15-19","Chancellor College","Postgraduate","7=Missing","Science",3,2,2,2,NA,NA,1,1,2,1,NA,2,NA,1,NA,4,2,2,2,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,3
+"160",160,"Male","20-24","Chancellor College","Postgraduate",NA,"Science",3,2,5,4,2,1,1,NA,4,2,2,5,3,5,3,5,4,2,5,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
+"161",161,"Male","15-19","Chancellor College","Postgraduate",NA,"Science",3,2,2,2,NA,NA,1,1,2,1,NA,2,NA,1,NA,4,2,2,2,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,3
 "162",162,"Male","20-24","Chancellor College","Undergraduate","3","Humanities and Social Science",3,2,3,3,2,2,4,2,2,3,3,5,1,3,2,3,2,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "163",163,"Male","20-24","Chancellor College","Undergraduate","1","Science",1,1,3,3,5,1,1,NA,1,2,4,5,1,1,4,NA,1,NA,1,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,12
 "164",164,"Female","20-24","Chancellor College","Undergraduate","1","Science",4,5,4,5,1,1,1,2,5,1,4,5,3,1,3,5,5,5,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,8
@@ -173,10 +173,10 @@
 "172",172,"Female","15-19","Chancellor College","Undergraduate","1","Science",3,1,NA,1,1,NA,NA,NA,1,1,NA,3,4,4,NA,3,2,1,1,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "173",173,"Male","30-34","Chancellor College","Undergraduate","2","Science",3,1,1,NA,NA,1,NA,1,NA,NA,NA,1,1,1,1,2,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "174",174,"Female","20-24","Chancellor College","Undergraduate","1","Science",3,3,1,1,NA,1,NA,NA,NA,1,NA,1,1,1,1,3,3,4,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,12
-"175",175,"Male","30-34","Chancellor College","Postgraduate","7=Missing","Science",2,1,2,1,1,1,2,1,NA,1,1,NA,2,1,2,4,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
-"176",176,"Prefer Not to Say",NA,"Daeyang University","Undergraduate","3","Science",3,1,NA,1,1,NA,4,NA,NA,NA,1,3,1,1,1,2,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
+"175",175,"Male","30-34","Chancellor College","Postgraduate",NA,"Science",2,1,2,1,1,1,2,1,NA,1,1,NA,2,1,2,4,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
+"176",176,NA,NA,"Daeyang University","Undergraduate","3","Science",3,1,NA,1,1,NA,4,NA,NA,NA,1,3,1,1,1,2,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "177",177,"Male","20-24","Chancellor College","Undergraduate","4+","Humanities and Social Science",2,1,2,NA,2,1,2,3,2,2,3,4,1,5,3,5,4,1,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
-"178",178,"Male","35-39","Malawi Institute of Management","Postgraduate","7=Missing","Science",3,3,2,4,2,2,4,1,2,2,2,4,2,4,4,4,4,NA,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
+"178",178,"Male","35-39","Malawi Institute of Management","Postgraduate",NA,"Science",3,3,2,4,2,2,4,1,2,2,2,4,2,4,4,4,4,NA,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "179",179,"Male","20-24","Lilongwe University of Agriculture and Natural Resources","Undergraduate","3","Science",3,3,2,3,1,NA,3,4,3,3,4,3,4,3,4,3,4,4,4,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "180",180,"Male","20-24","Chancellor College","Undergraduate","2","Science",3,3,4,3,4,5,3,2,5,5,3,5,1,3,5,5,5,5,5,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "181",181,"Male","20-24","Chancellor College","Undergraduate","3","Humanities and Social Science",4,4,2,2,1,3,5,3,3,4,4,NA,NA,5,2,3,2,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,8
@@ -186,26 +186,26 @@
 "185",185,"Male","35-39","Chancellor College","Undergraduate","1","Science",3,2,3,4,4,3,3,1,2,1,NA,4,4,3,3,3,1,2,5,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "186",186,"Male","20-24","Chancellor College","Undergraduate","3","Science",3,3,NA,4,4,1,2,1,2,2,1,4,4,4,4,4,1,2,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "187",187,"Male","20-24","Chancellor College","Undergraduate","4+","Science",3,2,2,1,2,NA,2,1,3,NA,1,2,1,2,1,3,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
-"188",188,"Male","25-29","Chancellor College","Postgraduate","7=Missing","Science",3,2,2,1,2,3,4,3,3,4,3,3,2,4,3,3,3,4,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
+"188",188,"Male","25-29","Chancellor College","Postgraduate",NA,"Science",3,2,2,1,2,3,4,3,3,4,3,3,2,4,3,3,3,4,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
 "189",189,"Male","20-24","Chancellor College","Undergraduate","3","Humanities and Social Science",3,NA,2,3,NA,1,1,1,1,5,5,3,1,3,5,5,3,1,5,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "190",190,"Female","25-29","Daeyang University","Undergraduate","3","7=Missing",2,2,1,1,1,NA,3,NA,NA,NA,2,3,1,1,1,3,2,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "191",191,"Female","25-29","Chancellor College","Undergraduate","1","Science",2,1,2,2,2,NA,2,1,2,1,1,2,2,2,1,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
-"192",192,"Male","25-29","Chancellor College","Postgraduate","7=Missing","Science",1,NA,1,1,NA,1,2,NA,NA,2,1,1,NA,NA,NA,2,1,NA,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10
+"192",192,"Male","25-29","Chancellor College","Postgraduate",NA,"Science",1,NA,1,1,NA,1,2,NA,NA,2,1,1,NA,NA,NA,2,1,NA,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10
 "193",193,"Female","20-24","Chancellor College","Undergraduate","4+","Humanities and Social Science",2,2,1,1,1,1,2,2,2,2,2,2,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "194",194,"Female","20-24","Chancellor College","Undergraduate","4+","Humanities and Social Science",4,2,NA,1,1,NA,3,NA,1,1,1,NA,1,1,NA,1,1,1,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
-"195",195,"Female","30-34","Chancellor College","Postgraduate","7=Missing","Science",3,2,2,1,1,2,4,2,1,2,4,2,1,1,2,2,2,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"195",195,"Female","30-34","Chancellor College","Postgraduate",NA,"Science",3,2,2,1,1,2,4,2,1,2,4,2,1,1,2,2,2,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "196",196,"Female","20-24","Chancellor College","Undergraduate","3","Humanities and Social Science",4,1,3,4,4,1,3,1,4,5,5,4,2,4,5,5,3,2,5,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "197",197,"Male","20-24","Chancellor College","Undergraduate","3","Humanities and Social Science",2,2,1,1,2,1,1,1,3,2,3,3,1,2,3,2,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
 "198",198,"Male","30-34","Catholic University","Undergraduate","2","Science",3,5,NA,1,1,1,5,3,2,1,4,5,5,5,5,1,1,5,5,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "199",199,"Female","20-24","Chancellor College","Undergraduate","2","Humanities and Social Science",2,2,1,1,2,1,2,1,NA,2,NA,2,NA,1,1,2,NA,NA,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "200",200,"Male","20-24","Chancellor College","Undergraduate","3","Science",NA,1,NA,NA,1,1,1,1,1,1,1,NA,NA,1,NA,NA,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-"201",201,"Male","25-29","Chancellor College","Postgraduate","7=Missing","Science",2,3,2,1,1,1,4,3,3,2,4,2,1,2,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-"202",202,"Male","40+","Chancellor College","Postgraduate","7=Missing","Science",1,1,1,NA,1,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
+"201",201,"Male","25-29","Chancellor College","Postgraduate",NA,"Science",2,3,2,1,1,1,4,3,3,2,4,2,1,2,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"202",202,"Male","40+","Chancellor College","Postgraduate",NA,"Science",1,1,1,NA,1,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
 "203",203,"Male","35-39","Chancellor College","Undergraduate","2","Humanities and Social Science",2,1,1,2,1,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "204",204,"Male","40+","Chancellor College","Undergraduate","1","Science",3,2,3,4,1,2,3,1,1,2,3,4,1,1,1,NA,1,2,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,8
 "205",205,"Male","25-29","Chancellor College","Undergraduate","4+","Humanities and Social Science",3,4,4,3,2,3,3,2,3,3,3,3,3,4,3,3,4,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
-"206",206,"Female","20-24","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",4,2,2,3,3,2,3,3,5,3,3,3,1,1,3,3,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,15
-"207",207,"Male","9=Missing","Chancellor College","Undergraduate","2","Science",3,1,3,3,1,2,4,1,5,4,2,4,4,1,1,1,4,4,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,12
+"206",206,"Female","20-24","Chancellor College","Postgraduate",NA,"Humanities and Social Science",4,2,2,3,3,2,3,3,5,3,3,3,1,1,3,3,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,15
+"207",207,"Male",NA,"Chancellor College","Undergraduate","2","Science",3,1,3,3,1,2,4,1,5,4,2,4,4,1,1,1,4,4,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,12
 "208",208,"Female","20-24","Chancellor College","Undergraduate","4+","Science",2,NA,1,3,1,1,3,1,NA,3,2,1,1,4,3,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "209",209,"Male","20-24","Chancellor College","Undergraduate","2","Humanities and Social Science",1,2,1,3,1,1,5,2,2,1,1,1,1,1,2,NA,2,1,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "210",210,"Female","20-24","Chancellor College","Undergraduate","3","Science",1,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,1,NA,1,NA,1,2,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
@@ -215,7 +215,7 @@
 "214",214,"Male","30-34","Chancellor College","Undergraduate","1","Science",2,2,3,1,3,1,2,1,NA,1,2,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
 "215",215,"Male","20-24","Chancellor College","Undergraduate","2","Humanities and Social Science",1,1,NA,1,1,NA,1,NA,1,NA,NA,1,1,NA,NA,1,4,NA,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "216",216,"Female","20-24","Chancellor College","Undergraduate","4+","Humanities and Social Science",4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-"217",217,"Female","30-34","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",1,1,NA,1,1,1,4,NA,1,3,2,4,NA,1,NA,2,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"217",217,"Female","30-34","Chancellor College","Postgraduate",NA,"Humanities and Social Science",1,1,NA,1,1,1,4,NA,1,3,2,4,NA,1,NA,2,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "218",218,"Male","20-24","Chancellor College","Undergraduate","4+","Humanities and Social Science",2,2,3,2,1,NA,2,NA,1,NA,2,1,2,2,2,2,4,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10
 "219",219,"Male","20-24","Chancellor College","Undergraduate","4+","Humanities and Social Science",4,2,3,4,NA,NA,4,NA,2,NA,4,5,1,NA,2,4,4,4,2,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "220",220,"Male","20-24","Malawi University of Science and Technology","Undergraduate","2","Science",NA,2,NA,2,1,NA,2,NA,1,NA,1,3,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
@@ -239,10 +239,10 @@
 "238",238,"Female","15-19","Chancellor College","Undergraduate","1","Science",2,NA,3,1,1,2,1,1,1,4,3,1,1,1,2,1,2,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "239",239,"Male","25-29","Chancellor College","Undergraduate","4+","Humanities and Social Science",3,2,1,1,2,1,1,2,2,NA,1,2,NA,NA,1,2,2,4,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "240",240,"Female","15-19","Chancellor College","Undergraduate","1","Science",1,4,1,1,2,1,1,NA,1,1,NA,1,1,NA,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11
-"241",241,"Female","25-29","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",3,1,NA,2,1,2,2,2,NA,1,2,3,1,2,2,1,2,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+"241",241,"Female","25-29","Chancellor College","Postgraduate",NA,"Humanities and Social Science",3,1,NA,2,1,2,2,2,NA,1,2,3,1,2,2,1,2,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "242",242,"Male","25-29","Chancellor College","Undergraduate","4+","Humanities and Social Science",1,1,NA,1,NA,NA,1,NA,NA,NA,NA,NA,NA,1,NA,1,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-"243",243,"Female","25-29","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",4,2,1,2,2,2,3,2,2,3,2,3,3,3,2,3,2,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
-"244",244,"Female","25-29","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",2,1,1,1,2,2,2,1,3,2,2,1,1,2,2,1,2,2,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
+"243",243,"Female","25-29","Chancellor College","Postgraduate",NA,"Humanities and Social Science",4,2,1,2,2,2,3,2,2,3,2,3,3,3,2,3,2,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
+"244",244,"Female","25-29","Chancellor College","Postgraduate",NA,"Humanities and Social Science",2,1,1,1,2,2,2,1,3,2,2,1,1,2,2,1,2,2,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "245",245,"Female","15-19","Chancellor College","Undergraduate","1","Science",5,2,NA,2,3,4,2,3,2,4,3,2,1,2,1,1,NA,NA,4,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,13
 "246",246,"Female","20-24","Chancellor College","Undergraduate","2","Science",4,2,3,4,1,2,5,1,2,2,1,4,4,4,3,4,2,4,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
 "247",247,"Female","20-24","Chancellor College","Undergraduate","1","Humanities and Social Science",2,1,1,4,NA,NA,1,NA,NA,5,NA,4,NA,4,NA,2,4,NA,1,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
@@ -256,16 +256,16 @@
 "255",255,"Female","20-24","Chancellor College","Undergraduate","2","Science",3,2,2,1,4,1,NA,NA,NA,NA,1,5,2,NA,NA,2,2,3,4,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
 "256",256,"Male","25-29","Chancellor College","Undergraduate","3","Science",1,1,2,3,3,1,2,2,3,5,1,2,1,1,1,2,2,2,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "257",257,"Male","20-24","Chancellor College","Undergraduate","1","Science",1,NA,1,NA,NA,2,NA,2,NA,1,NA,3,NA,1,2,NA,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,8
-"258",258,"Female","25-29","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",4,2,4,1,3,2,2,3,3,4,4,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-"259",259,"Female","25-29","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",4,3,3,2,3,2,1,3,2,1,4,1,4,1,5,2,3,4,4,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11
+"258",258,"Female","25-29","Chancellor College","Postgraduate",NA,"Humanities and Social Science",4,2,4,1,3,2,2,3,3,4,4,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"259",259,"Female","25-29","Chancellor College","Postgraduate",NA,"Humanities and Social Science",4,3,3,2,3,2,1,3,2,1,4,1,4,1,5,2,3,4,4,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11
 "260",260,"Female","15-19","Malawi University of Science and Technology","Undergraduate","2","Science",2,NA,1,1,1,1,1,2,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
-"261",261,"Male","30-34","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",4,2,1,NA,1,2,2,2,1,1,1,2,2,2,1,3,2,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
-"262",262,"Female","30-34","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",3,1,NA,NA,1,1,1,NA,1,NA,NA,NA,NA,2,NA,1,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-"263",263,"Female","20-24","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",3,1,3,NA,2,NA,NA,NA,NA,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
-"264",264,"Female","25-29","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",3,3,2,2,3,3,1,3,2,2,2,1,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
-"265",265,"Male","25-29","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",2,1,1,2,2,1,2,1,2,2,1,3,NA,2,2,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
-"266",266,"Male","25-29","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",3,1,NA,1,1,1,4,3,3,2,1,NA,NA,1,1,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
-"267",267,"Male","30-34","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",3,3,NA,NA,NA,NA,5,NA,NA,5,NA,NA,5,4,5,NA,NA,4,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+"261",261,"Male","30-34","Chancellor College","Postgraduate",NA,"Humanities and Social Science",4,2,1,NA,1,2,2,2,1,1,1,2,2,2,1,3,2,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
+"262",262,"Female","30-34","Chancellor College","Postgraduate",NA,"Humanities and Social Science",3,1,NA,NA,1,1,1,NA,1,NA,NA,NA,NA,2,NA,1,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"263",263,"Female","20-24","Chancellor College","Postgraduate",NA,"Humanities and Social Science",3,1,3,NA,2,NA,NA,NA,NA,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
+"264",264,"Female","25-29","Chancellor College","Postgraduate",NA,"Humanities and Social Science",3,3,2,2,3,3,1,3,2,2,2,1,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
+"265",265,"Male","25-29","Chancellor College","Postgraduate",NA,"Humanities and Social Science",2,1,1,2,2,1,2,1,2,2,1,3,NA,2,2,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
+"266",266,"Male","25-29","Chancellor College","Postgraduate",NA,"Humanities and Social Science",3,1,NA,1,1,1,4,3,3,2,1,NA,NA,1,1,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+"267",267,"Male","30-34","Chancellor College","Postgraduate",NA,"Humanities and Social Science",3,3,NA,NA,NA,NA,5,NA,NA,5,NA,NA,5,4,5,NA,NA,4,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "268",268,"Female","20-24","Chancellor College","Undergraduate","1","Humanities and Social Science",3,3,2,3,4,2,3,2,3,2,3,3,2,3,3,3,3,4,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,8
 "269",269,"Female","15-19","Chancellor College","Undergraduate","2","Science",1,3,2,NA,2,NA,4,NA,3,1,NA,1,5,4,5,1,4,3,4,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "270",270,"Male","25-29","Chancellor College","Undergraduate","3","Science",3,3,2,1,1,2,2,3,1,2,3,4,1,4,2,4,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,8
@@ -287,13 +287,13 @@
 "286",286,"Male","20-24","Chancellor College","Undergraduate","1","7=Missing",1,NA,1,1,NA,1,NA,NA,1,NA,1,1,NA,1,1,NA,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "287",287,"Male","20-24","Chancellor College","Undergraduate","4+","Science",5,3,4,2,4,2,4,3,3,3,4,4,4,3,3,3,3,4,4,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "288",288,"Male","20-24","Chancellor College","Undergraduate","1","Science",3,2,4,3,NA,2,1,1,NA,1,2,3,5,1,NA,3,2,NA,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
-"289",289,"Male","40+","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",5,3,3,2,4,NA,5,1,4,1,4,1,4,1,4,5,2,2,NA,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"289",289,"Male","40+","Chancellor College","Postgraduate",NA,"Humanities and Social Science",5,3,3,2,4,NA,5,1,4,1,4,1,4,1,4,5,2,2,NA,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "290",290,"Male","15-19","Malawi University of Science and Technology","Undergraduate","3","Science",4,3,3,4,1,NA,5,4,3,2,3,2,3,2,3,2,3,2,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
 "291",291,"Male","20-24","Chancellor College","Undergraduate","1","Science",4,2,2,4,4,NA,3,1,3,4,1,2,NA,4,1,3,4,1,3,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,12
-"292",292,"Male","40+","Chancellor College","Postgraduate","7=Missing","Humanities and Social Science",2,2,1,NA,NA,NA,4,2,1,NA,1,1,1,NA,NA,1,NA,NA,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"292",292,"Male","40+","Chancellor College","Postgraduate",NA,"Humanities and Social Science",2,2,1,NA,NA,NA,4,2,1,NA,1,1,1,NA,NA,1,NA,NA,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "293",293,"Female","15-19","Chancellor College","Undergraduate","2","Humanities and Social Science",2,3,1,5,NA,1,1,1,5,3,1,1,1,2,2,2,5,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "294",294,"Male","25-29","Chancellor College","Undergraduate","2","Humanities and Social Science",3,1,5,NA,1,NA,1,NA,5,NA,1,NA,2,1,1,1,2,1,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-"295",295,"Male","9=Missing","Chancellor College","Undergraduate","2","Science",3,2,5,5,4,1,2,5,4,5,4,5,4,5,4,4,5,4,2,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11
+"295",295,"Male",NA,"Chancellor College","Undergraduate","2","Science",3,2,5,5,4,1,2,5,4,5,4,5,4,5,4,4,5,4,2,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11
 "296",296,"Female","20-24","Chancellor College","Undergraduate","3","Science",5,4,3,2,1,5,4,3,5,3,2,5,3,2,1,4,3,2,4,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
 "297",297,"Male","25-29","Chancellor College","Undergraduate","3","Science",1,NA,NA,2,1,NA,1,NA,NA,NA,1,1,NA,1,NA,1,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "298",298,"Female","20-24","Chancellor College","Undergraduate","2","Humanities and Social Science",3,4,5,2,3,3,1,2,3,3,1,5,5,5,3,4,5,4,4,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,15
@@ -322,7 +322,7 @@
 "321",321,"Male","35-39","Domasi College of Education","Undergraduate","1","Science",NA,1,2,NA,NA,3,NA,1,NA,NA,1,NA,NA,1,NA,NA,NA,NA,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "322",322,"Male","15-19","Domasi College of Education","Undergraduate","1","Humanities and Social Science",4,1,2,2,NA,1,1,1,5,1,5,4,1,1,2,1,3,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "323",323,"Male","20-24","Domasi College of Education","Undergraduate","2","Humanities and Social Science",5,1,5,3,3,NA,1,3,5,2,1,5,2,1,5,5,2,1,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
-"324",324,"Male","9=Missing","Domasi College of Education","Undergraduate","2","Humanities and Social Science",3,5,5,4,3,3,2,3,2,4,1,NA,NA,2,2,1,1,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"324",324,"Male",NA,"Domasi College of Education","Undergraduate","2","Humanities and Social Science",3,5,5,4,3,3,2,3,2,4,1,NA,NA,2,2,1,1,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "325",325,"Male","35-39","Domasi College of Education","Undergraduate","3","Humanities and Social Science",3,2,2,3,3,1,NA,1,1,2,2,2,2,2,2,1,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "326",326,"Male","20-24","Domasi College of Education","Undergraduate","1","Science",2,1,1,1,2,NA,NA,NA,1,2,1,3,2,2,2,2,1,2,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
 "327",327,"Female","20-24","Domasi College of Education","Undergraduate","3","Humanities and Social Science",2,2,2,2,1,2,NA,1,1,2,2,1,1,1,2,2,NA,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
@@ -462,14 +462,14 @@
 "461",461,"Male","20-24","Malawi University of Science and Technology","Undergraduate","2","Science",1,1,NA,2,NA,NA,4,1,3,1,2,NA,NA,3,NA,1,NA,NA,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "462",462,"Male","20-24","Malawi University of Science and Technology","Undergraduate","2","Science",2,NA,1,2,2,NA,2,1,2,2,2,5,2,2,2,2,1,NA,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "463",463,"Male","20-24","Malawi University of Science and Technology","Undergraduate","2","Science",2,1,2,1,1,1,3,1,NA,1,4,1,NA,1,2,NA,2,NA,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
-"464",464,"Prefer Not to Say","20-24","Malawi University of Science and Technology","Undergraduate","2","Science",1,2,NA,NA,1,NA,1,NA,2,NA,1,1,NA,NA,NA,NA,NA,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"464",464,NA,"20-24","Malawi University of Science and Technology","Undergraduate","2","Science",1,2,NA,NA,1,NA,1,NA,2,NA,1,1,NA,NA,NA,NA,NA,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "465",465,"Male","15-19","National College of Information Technology","Undergraduate","1","Science",3,4,3,2,2,2,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "466",466,"Male","15-19","National College of Information Technology","Undergraduate","1","Science",3,NA,2,5,3,1,2,2,3,4,5,3,1,2,3,4,5,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "467",467,"Male","15-19","National College of Information Technology","Undergraduate","1","Humanities and Social Science",2,2,1,1,3,NA,NA,NA,5,4,3,5,5,5,4,3,5,3,5,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
 "468",468,"Female","20-24","The Malawi Polytechnic","Undergraduate","3","Science",5,4,NA,4,2,4,1,2,NA,NA,1,1,NA,3,2,4,3,5,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "469",469,"Male","25-29","National College of Information Technology","Undergraduate","3","Science",3,2,2,1,1,NA,NA,NA,1,NA,1,NA,1,NA,1,NA,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "470",470,"Male","25-29","The Malawi Polytechnic","Undergraduate","4+","Humanities and Social Science",1,4,2,4,2,4,4,4,2,3,5,3,4,4,4,2,4,5,3,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,13
-"471",471,"Prefer Not to Say",NA,"National College of Information Technology","Undergraduate","1","Science",1,NA,NA,3,NA,NA,1,NA,NA,4,NA,1,NA,1,1,NA,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
+"471",471,NA,NA,"National College of Information Technology","Undergraduate","1","Science",1,NA,NA,3,NA,NA,1,NA,NA,4,NA,1,NA,1,1,NA,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "472",472,"Male","15-19","National College of Information Technology","Undergraduate","1","Science",2,2,4,4,NA,2,NA,2,4,1,1,5,2,2,5,2,2,2,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "473",473,"Female","15-19","The Malawi Polytechnic","Undergraduate","4+","Science",3,4,3,4,4,3,5,3,4,5,3,5,4,NA,NA,2,4,NA,2,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,8
 "474",474,"Male","20-24","National College of Information Technology","Undergraduate","1","Science",1,NA,NA,NA,NA,1,2,3,2,3,4,3,3,NA,1,1,1,NA,2,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
@@ -486,7 +486,7 @@
 "485",485,"Female","20-24","National College of Information Technology","Undergraduate","1","Science",2,NA,5,3,NA,NA,3,NA,NA,4,NA,3,NA,1,2,4,5,4,5,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "486",486,"Male","20-24","The Malawi Polytechnic","Undergraduate","3","Science",2,NA,NA,1,1,NA,1,NA,1,NA,NA,NA,NA,1,NA,NA,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "487",487,"Female","25-29","The Malawi Polytechnic","Undergraduate","4+","Science",1,NA,1,NA,NA,1,NA,NA,1,1,2,NA,1,NA,NA,1,1,1,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-"488",488,"Male","25-29","The Malawi Polytechnic","Undergraduate","7=Missing","Humanities and Social Science",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"488",488,"Male","25-29","The Malawi Polytechnic","Undergraduate",NA,"Humanities and Social Science",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "489",489,"Male","20-24","National College of Information Technology","Undergraduate","3","Science",3,3,4,3,1,1,1,1,3,2,2,3,2,2,3,2,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "490",490,"Male","20-24","The Malawi Polytechnic","Undergraduate","3","Science",1,2,1,2,2,3,3,2,2,3,1,1,NA,2,2,2,2,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "491",491,"Female","15-19","The Malawi Polytechnic","Undergraduate","2","Science",3,1,NA,2,NA,1,NA,NA,NA,4,3,4,2,3,NA,4,3,4,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
@@ -498,7 +498,7 @@
 "497",497,"Male","20-24","The Malawi Polytechnic","Undergraduate","4+","Science",5,5,NA,5,NA,5,NA,5,5,5,5,NA,NA,5,5,5,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,19
 "498",498,"Female","20-24","The Malawi Polytechnic","Undergraduate","2","Science",5,4,3,5,3,2,NA,3,5,NA,2,5,5,5,4,5,4,3,1,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,13
 "499",499,"Female","20-24","The Malawi Polytechnic","Undergraduate","4+","Science",3,1,1,1,1,1,1,3,1,1,1,NA,NA,4,NA,NA,2,4,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
-"500",500,"Male","9=Missing","The Malawi Polytechnic","Undergraduate","2","Science",2,NA,NA,2,NA,NA,2,NA,4,NA,2,NA,1,NA,2,NA,NA,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+"500",500,"Male",NA,"The Malawi Polytechnic","Undergraduate","2","Science",2,NA,NA,2,NA,NA,2,NA,4,NA,2,NA,1,NA,2,NA,NA,1,1,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "501",501,"Female","20-24","The Malawi Polytechnic","Undergraduate","4+","Science",1,1,1,4,1,1,4,2,1,NA,NA,1,2,NA,NA,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "502",502,"Male","20-24","The Malawi Polytechnic","Undergraduate","2","Science",1,1,1,NA,2,1,2,1,1,1,2,1,2,1,2,1,NA,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "503",503,"Female","20-24","The Malawi Polytechnic","Undergraduate","2","Science",4,4,NA,NA,3,3,1,3,4,4,4,5,3,NA,NA,4,4,5,4,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11
@@ -545,7 +545,7 @@
 "544",544,"Male","20-24","Mzuzu University","Undergraduate","2","Science",1,1,NA,NA,NA,NA,2,1,NA,NA,NA,5,NA,2,1,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "545",545,"Male","25-29","The Malawi Polytechnic","Undergraduate","2","Science",2,1,NA,2,1,2,3,1,1,1,1,3,NA,1,1,3,NA,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "546",546,"Female","15-19","The Malawi Polytechnic","Undergraduate","1","Humanities and Social Science",4,3,NA,3,4,NA,1,NA,2,1,3,2,3,5,4,3,1,5,2,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
-"547",547,"Male","9=Missing","The Malawi Polytechnic","Undergraduate","2","Science",4,4,1,2,3,3,5,2,3,2,3,5,1,1,3,4,4,3,5,4,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,11
+"547",547,"Male",NA,"The Malawi Polytechnic","Undergraduate","2","Science",4,4,1,2,3,3,5,2,3,2,3,5,1,1,3,4,4,3,5,4,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,11
 "548",548,"Female","15-19","The Malawi Polytechnic","Undergraduate","1","Humanities and Social Science",5,3,1,3,3,NA,NA,NA,2,1,1,2,5,NA,3,4,4,5,5,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "549",549,"Female","15-19","The Malawi Polytechnic","Undergraduate","1","Humanities and Social Science",1,1,NA,1,1,1,2,NA,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "550",550,"Male","35-39","The Malawi Polytechnic","Undergraduate","4+","Science",2,2,4,1,1,1,2,1,1,2,3,5,1,1,1,3,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
@@ -666,7 +666,7 @@
 "665",665,"Male","20-24","The Malawi Polytechnic","Undergraduate","3","Science",3,3,NA,1,1,1,NA,1,2,2,2,1,2,2,1,3,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "666",666,"Female","15-19","The Malawi Polytechnic","Undergraduate","1","Science",NA,5,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "667",667,"Female","20-24","The Malawi Polytechnic","Undergraduate","3","Science",3,1,1,4,1,2,1,2,NA,2,1,5,NA,NA,1,4,2,NA,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,3
-"668",668,"Male","25-29","The Malawi Polytechnic","Postgraduate","7=Missing","Science",3,NA,NA,5,NA,NA,2,NA,2,NA,2,5,NA,2,NA,NA,NA,NA,2,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+"668",668,"Male","25-29","The Malawi Polytechnic","Postgraduate",NA,"Science",3,NA,NA,5,NA,NA,2,NA,2,NA,2,5,NA,2,NA,NA,NA,NA,2,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "669",669,"Female","15-19","The Malawi Polytechnic","Undergraduate","3","Science",4,2,5,NA,3,NA,1,NA,3,1,4,5,3,1,1,3,4,5,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
 "670",670,"Male","15-19","The Malawi Polytechnic","Undergraduate","1","Science",4,1,NA,2,1,3,3,3,1,2,3,4,2,4,4,4,4,3,2,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "671",671,"Female","20-24","The Malawi Polytechnic","Undergraduate","3","Science",2,2,NA,1,NA,NA,2,NA,NA,1,2,NA,1,4,1,4,4,1,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
@@ -727,7 +727,7 @@
 "726",726,"Female","15-19","Chancellor College","Undergraduate","1","Science",3,4,3,NA,1,1,2,2,1,2,1,4,NA,NA,1,2,NA,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 "727",727,"Female","15-19","Chancellor College","Undergraduate","1","Science",2,1,1,1,2,3,NA,3,NA,3,1,NA,NA,1,1,1,1,NA,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
 "728",728,"Male","15-19","Chancellor College","Undergraduate","1","Science",3,1,2,4,1,2,2,NA,NA,2,5,3,5,2,2,3,5,5,4,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11
-"729",729,"Male","9=Missing","Chancellor College","Undergraduate","1","Science",NA,1,NA,3,NA,3,1,2,1,3,1,3,1,1,2,1,4,3,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,12
+"729",729,"Male",NA,"Chancellor College","Undergraduate","1","Science",NA,1,NA,3,NA,3,1,2,1,3,1,3,1,1,2,1,4,3,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,12
 "730",730,"Male","20-24","Chancellor College","Undergraduate","2","Science",1,2,2,3,1,3,3,2,3,3,2,3,3,3,3,4,4,4,4,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,19
 "731",731,"Female","25-29","Chancellor College","Undergraduate","1","7=Missing",2,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "732",732,"Male","20-24","Chancellor College","Undergraduate","1","Science",3,1,2,4,1,1,2,1,2,2,2,3,2,1,1,2,2,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
@@ -770,7 +770,7 @@
 "769",769,"Male","20-24","Lilongwe University of Agriculture & Natural Resources","Undergraduate","3","Science",3,3,4,5,2,1,5,1,1,1,5,5,5,3,2,2,3,2,4,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "770",770,"Male","20-24","Malawi University of Science and Technology","Undergraduate","2","Science",5,2,4,4,1,NA,4,NA,NA,5,5,4,NA,NA,NA,NA,4,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
 "771",771,"Male","20-24","Lilongwe University of Agriculture & Natural Resources","Undergraduate","2","Science",2,3,4,NA,5,NA,5,NA,4,2,5,5,3,2,5,5,3,1,2,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-"772",772,"Prefer Not to Say","20-24","Lilongwe University of Agriculture & Natural Resources","Undergraduate","2","Science",1,2,4,1,NA,2,NA,1,5,NA,1,5,2,5,2,3,3,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
+"772",772,NA,"20-24","Lilongwe University of Agriculture & Natural Resources","Undergraduate","2","Science",1,2,4,1,NA,2,NA,1,5,NA,1,5,2,5,2,3,3,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "773",773,"Male","20-24","Lilongwe University of Agriculture & Natural Resources","Undergraduate","1","Science",2,2,5,5,NA,NA,1,NA,5,5,5,5,5,5,5,3,1,5,5,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "774",774,"Male","20-24","Lilongwe University of Agriculture & Natural Resources","Undergraduate","1","Science",4,1,NA,1,1,1,2,NA,NA,1,2,5,5,4,1,5,5,5,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
 "775",775,"Male","20-24","Lilongwe University of Agriculture & Natural Resources","Undergraduate","2","Science",5,1,3,3,1,1,2,NA,NA,1,1,5,5,4,NA,5,5,5,4,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
@@ -802,7 +802,7 @@
 "801",801,"Male","20-24","Lilongwe University of Agriculture & Natural Resources","Undergraduate","2","Science",2,2,NA,4,NA,NA,NA,1,NA,1,NA,3,3,NA,NA,2,5,5,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "802",802,"Male","20-24","Lilongwe University of Agriculture & Natural Resources","Undergraduate","3","Science",3,4,2,1,1,2,NA,3,3,4,2,5,2,NA,2,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "803",803,"Male","20-24",NA,"Undergraduate","3","Science",3,2,4,3,2,1,4,1,2,3,4,5,3,3,4,4,3,3,2,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-"804",804,"Male","9=Missing","Lilongwe University of Agriculture & Natural Resources","Undergraduate","3","Science",3,2,1,4,2,4,5,1,3,4,3,5,2,4,3,5,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
+"804",804,"Male",NA,"Lilongwe University of Agriculture & Natural Resources","Undergraduate","3","Science",3,2,1,4,2,4,5,1,3,4,3,5,2,4,3,5,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
 "805",805,"Female","15-19","Lilongwe University of Agriculture & Natural Resources","Undergraduate","1","Science",5,4,5,1,NA,NA,NA,NA,2,4,5,NA,2,5,3,5,2,3,5,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
 "806",806,"Female","15-19","Lilongwe University of Agriculture & Natural Resources","Undergraduate","1","Humanities and Social Science",4,4,1,1,3,5,NA,5,4,2,5,4,4,3,3,3,1,NA,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9
 "807",807,"Male","20-24","Lilongwe University of Agriculture & Natural Resources","Undergraduate","4+","Science",2,3,4,3,NA,1,3,2,1,5,2,5,2,5,1,4,3,5,2,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,7
@@ -823,7 +823,7 @@
 "822",822,"Male","20-24","Lilongwe University of Agriculture & Natural Resources","Undergraduate","2","Science",2,1,1,NA,1,2,NA,1,2,NA,NA,1,NA,1,3,1,4,5,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
 "823",823,"Male","20-24","Lilongwe University of Agriculture & Natural Resources","Undergraduate","2","Science",1,NA,1,2,NA,NA,1,NA,NA,NA,1,4,NA,NA,2,1,3,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "824",824,"Male","30-34","Lilongwe University of Agriculture & Natural Resources","Undergraduate","1","Science",1,NA,3,4,1,1,5,1,NA,1,1,2,NA,4,5,5,5,1,3,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
-"825",825,"Female","9=Missing","Lilongwe University of Agriculture & Natural Resources","Undergraduate","1","Science",3,3,1,4,1,2,1,NA,1,3,3,4,3,4,3,4,5,NA,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
+"825",825,"Female",NA,"Lilongwe University of Agriculture & Natural Resources","Undergraduate","1","Science",3,3,1,4,1,2,1,NA,1,3,3,4,3,4,3,4,5,NA,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "826",826,"Male","15-19","Catholic University","Undergraduate","2","Science",3,2,5,2,1,1,2,NA,1,2,2,3,5,3,2,4,4,5,4,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 "827",827,"Male","30-34","Nalikule College of Education","Undergraduate","2","Humanities and Social Science",3,2,1,3,2,2,2,NA,2,2,1,2,2,1,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "828",828,"Male","20-24","Nalikule College of Education","Undergraduate","2","Science",2,1,NA,2,1,1,NA,NA,4,2,3,NA,3,3,2,4,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
@@ -868,7 +868,7 @@
 "867",867,"Male","20-24","Catholic University","Undergraduate","4+","Science",1,5,NA,1,5,NA,1,NA,1,2,2,5,5,3,5,5,4,2,5,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6
 "868",868,"Male","15-19","Catholic University","Undergraduate","1","Science",3,1,4,2,1,NA,1,2,1,2,3,NA,2,4,NA,3,3,2,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10
 "869",869,"Male","20-24","Catholic University","Undergraduate","4+","Science",5,4,3,3,4,4,1,3,4,4,4,5,4,1,2,5,5,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-"870",870,"Prefer Not to Say","15-19","Catholic University","Undergraduate","3","Humanities and Social Science",3,1,NA,1,1,NA,1,NA,5,NA,1,5,1,2,NA,2,1,1,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+"870",870,NA,"15-19","Catholic University","Undergraduate","3","Humanities and Social Science",3,1,NA,1,1,NA,1,NA,5,NA,1,5,1,2,NA,2,1,1,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "871",871,"Male","20-24","Catholic University","Undergraduate","1","Science",1,NA,1,5,NA,NA,NA,NA,1,1,4,NA,NA,4,4,3,3,1,NA,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "872",872,"Male","15-19","Catholic University","Undergraduate","3","Humanities and Social Science",3,1,NA,3,1,NA,3,NA,5,NA,1,4,1,2,NA,2,NA,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "873",873,"Male","20-24","Catholic University","Undergraduate","3","Science",4,2,5,3,3,1,3,2,4,4,3,5,3,4,3,3,4,3,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
@@ -947,7 +947,7 @@
 "946",946,"Male","20-24","Malawi University of Science and Technology","Undergraduate","1","Science",2,2,3,1,2,2,4,1,4,4,4,3,3,2,3,5,3,2,3,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
 "947",947,"Male","20-24","Malawi University of Science and Technology","Undergraduate","1","Science",3,4,NA,5,1,2,3,NA,1,3,1,1,4,5,NA,5,4,5,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2
 "948",948,"Male","20-24","Malawi University of Science and Technology","Undergraduate","1","Science",1,2,NA,3,1,2,3,NA,5,2,3,5,5,4,2,4,3,2,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-"949",949,"Prefer Not to Say","20-24","Malawi University of Science and Technology","Undergraduate","1","Science",3,1,2,1,NA,NA,2,1,3,3,NA,2,1,NA,NA,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
+"949",949,NA,"20-24","Malawi University of Science and Technology","Undergraduate","1","Science",3,1,2,1,NA,NA,2,1,3,3,NA,2,1,NA,NA,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5
 "950",950,"Female","15-19","Malawi University of Science and Technology","Undergraduate","1","Science",4,4,2,5,3,3,1,4,4,2,1,5,4,1,5,5,3,4,5,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,15
 "951",951,"Male","20-24","Malawi University of Science and Technology","Undergraduate","1","Science",1,1,NA,1,NA,NA,1,NA,2,NA,1,1,1,1,1,1,1,NA,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 "952",952,"Male","20-24","Malawi University of Science and Technology","Undergraduate","1","Science",3,NA,1,1,NA,1,1,1,NA,NA,2,1,NA,NA,NA,NA,5,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3

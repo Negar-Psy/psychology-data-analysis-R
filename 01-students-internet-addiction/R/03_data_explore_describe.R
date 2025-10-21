@@ -3,29 +3,27 @@
 # Purpose: Explore and describe the cleaned dataset
 
 
-# -----------------------------------------------
+#----------------------------------------------------------------------
 
 # --- Cleaning the environment ---
 rm(list = ls())
 setwd(here::here())
+
+#----------------------------------------------------------------------
 
 # --- Looking at data ---
 View(data_internet)
 head(data_internet)
 summary(data_internet)
 
+#----------------------------------------------------------------------
+
 # --- Checking variable types ---
 str(data_internet)
 
-# --- Seting categorical variables as factors ---
-data_internet <- data_internet %>%
-  mutate(gender = as.factor(gender),
-         age = as.factor(age),
-         study_level = as.factor(study_level),
-         discipline = as.factor(discipline))
-str(data_internet)
+#----------------------------------------------------------------------
 
-# --- Descriptive statistics for numberic variables ---
+# --- Descriptive statistics for numeric variables ---
 
 # --- Creating IAT and SRQ total scores ---
 
