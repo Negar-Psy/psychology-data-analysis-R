@@ -1,0 +1,30 @@
+
+Call:
+glm(formula = CMD_bin ~ total_iat_z + gender + age_group + study_level + 
+    discipline, family = binomial, data = data_internet)
+
+Coefficients:
+                           Estimate Std. Error z value Pr(>|z|)    
+(Intercept)               -0.840674   0.470540  -1.787  0.07400 .  
+total_iat_z                0.803224   0.086335   9.304  < 2e-16 ***
+genderMale                -0.479510   0.172559  -2.779  0.00546 ** 
+age_group20-24            -0.173758   0.201765  -0.861  0.38913    
+age_group25-29             0.080067   0.276282   0.290  0.77197    
+age_group30-34            -0.765806   0.482031  -1.589  0.11213    
+age_group35-39            -0.717612   0.683356  -1.050  0.29366    
+age_groupOther             0.288060   0.894314   0.322  0.74738    
+study_levelUndergraduate   0.033972   0.430699   0.079  0.93713    
+disciplineScience         -0.003878   0.186845  -0.021  0.98344    
+disciplineOther          -14.671073 433.103898  -0.034  0.97298    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1083.03  on 961  degrees of freedom
+Residual deviance:  958.17  on 951  degrees of freedom
+  (22 observations deleted due to missingness)
+AIC: 980.17
+
+Number of Fisher Scoring iterations: 14
+
