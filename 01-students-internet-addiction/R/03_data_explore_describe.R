@@ -1,30 +1,41 @@
-# R/03_data_explore_and_describe.R
+#======================================================================
 
-# Purpose: Explore and describe the cleaned dataset
+# --- Project 01: Internet Addiction and Common Mental Disorders Among Students ---
+# --- Script: 03_data_explore_and_describe.R ---
 
+#======================================================================
 
-#----------------------------------------------------------------------
+# --- Purpose: ---
+#   - Explore and describe the cleaned dataset.
+#   - Generate descriptive statistics for IAT, SRQ, and CMD variables.
+#   - Summarize demographic variables (gender, age group, study level, discipline).
+#   - Visualize distributions and relationships using plots and tables.
+#   - Save summary tables and figures for reporting.
+#
+#   This script provides an overview of the data before modeling.
+
+#======================================================================
 
 # --- Setting the environment ---
 setwd(here::here())
 
-#----------------------------------------------------------------------
+#======================================================================
 
 # --- Looking at data ---
 View(data_internet)
 head(data_internet)
 summary(data_internet)
 
-#----------------------------------------------------------------------
+#======================================================================
 
 # --- Checking variable types ---
 str(data_internet)
 
-#----------------------------------------------------------------------
+#======================================================================
 
 # --- Descriptive statistics for numeric variables ---
 
-#----------------------------------------------------------------------
+#======================================================================
 
 # --- Creating IAT and SRQ total scores ---
 
@@ -36,7 +47,7 @@ data_internet <- data_internet %>%
 numeric_summary <- describe(select(data_internet, total_iat, total_srq))
 numeric_summary
 
-#----------------------------------------------------------------------
+#======================================================================
 
 # --- Frequency tables for categorical variables ---
 # --- gender ---
@@ -65,14 +76,15 @@ write.csv(age_table, "reports/freq_age.csv", row.names = FALSE)
 write.csv(study_table, "reports/freq_study.csv", row.names = FALSE)
 write.csv(year_table, "reports/freq_year.csv", row.names = FALSE)
 
-#----------------------------------------------------------------------
+#======================================================================
+
 # --- Histogram of total_iat (Internet Addiction) ---
 ggplot(data_internet, aes(x= total_iat)) +
   geom_histogram(binwidth = 5, fill="blue", color = "black") +
   labs (title = " Distribution of Internet Addiction Scores (IAT)", x= "IAT Total Score", y="Number of Students")
 ggsave("reports/hist_IAT.png")
 
-#----------------------------------------------------------------------
+#======================================================================
 
 # --- Histogram of total_srq (Common Mental Disorder score) ---
 ggplot(data_internet, aes(x = total_srq)) +
@@ -86,16 +98,16 @@ ggsave("reports/hist_srq.png")
 data_internet <- data_internet %>%
   mutate(CMD = ifelse(total_srq >= 8, "Yes", "No"))
 
+
 ggplot(data_internet, aes(x = CMD, y = total_iat, fill = CMD)) +
   geom_boxplot() +
   labs(title = "Internet Addiction Scores by CMD Status", x = "Probable CMD (SRQ-20 ≥ 8)", y = "IAT Total Score")
 ggsave("reports/box-IAT-by-CMD.png")
 
-#----------------------------------------------------------------------
+#======================================================================
 
 # --- Relationship between categorical variables ---
 
-#----------------------------------------------------------------------
 # --- 1. CMD Prevalence by Gender ---
 cmd_gender <- data_internet %>%
   group_by(gender, CMD) %>%
@@ -174,11 +186,10 @@ ggplot(cmd_year, aes(x = year_of_study, y = percent, fill = CMD)) +
 
 ggsave("reports/bar_CMD_by_year.png")
 
-#----------------------------------------------------------------------
+#======================================================================
 
 # --- Correlation between continuous variables ---
 
-#----------------------------------------------------------------------
 # --- total_iat vs total_srq ---
 correlation <- cor(data_internet$total_iat, data_internet$total_srq, use = "complete.obs")
 print(paste("Correlation between IAT and SRQ-20:", round(correlation, 3)))
@@ -191,5 +202,9 @@ ggplot(data_internet, aes(x = total_iat, y =total_srq)) +
 
 ggsave("reports/scatter_IAT_vs_SRQ20.png")
 
-#----------------------------------------------------------------------
-# --- End
+#======================================================================
+
+# --- End of Script 03 ---
+
+#======================================================================
+

@@ -1,7 +1,26 @@
+#====================================================================
+
+# --- Project 01: Internet Addiction and Common Mental Disorders Among Students ---
+# --- Script: 01_download_clean_prepare_data.R ---
+
+#======================================================================
+
+# --- Purpose: ---
+#   - Download and load the dataset from Mendeley Data.
+#   - Clean and recode IAT and SRQ questionnaire items.
+#   - Calculate total IAT and SRQ-20 scores for each participant.
+#   - Create the CMD variable (1 = probable CMD, 0 = no CMD).
+#   - Save the cleaned dataset for further analysis.
+#
+#   This script prepares all main variables needed for exploration
+#   and statistical analysis in the next steps.
+
+#======================================================================
+
 # --- Installing required packages ---
 renv::install(c("readr","dplyr","stringr","janitor","here", "tidyr"))
 
-#-----------------------------------------------------------------------
+#======================================================================
 
 # --- Loading required packages ---
 
@@ -12,23 +31,23 @@ library(janitor)  # for easy data cleaning
 library(here)  # for reliable paths across projects
 library(tidyr)  # for reshaping data
 
-#-----------------------------------------------------------------------
+#======================================================================
 
 # --- Reading raw data ---
 raw_data <- read_csv(here("data-raw", "Internet_Addiction_Malawi_Data.csv"))
 
-#-----------------------------------------------------------------------
+#======================================================================
   
 # --- Quick checking ---
 glimpse(raw_data)
 head(raw_data)
 
-#-----------------------------------------------------------------------
+#======================================================================
   
 # --- Checking original column names ---
 colnames(raw_data)
 
-#-----------------------------------------------------------------------
+#======================================================================
   
 # --- Renaming columns for readability ---
 new_data <- raw_data %>%
@@ -46,7 +65,7 @@ colnames(new_data) [8:27] <- paste0("iat_", 1:20)
 colnames(new_data) [28:47] <- paste0("srq_", 1:20)
 colnames(new_data)
 
-#-----------------------------------------------------------------------
+#======================================================================
   
 # --- Cleaning Columns ---
 # --- Cleaning gender column ---
@@ -68,7 +87,7 @@ new_data <- new_data %>%
 # --- Checking gender factor levels ---
 levels(new_data$gender)
 
-#-----------------------------------------------------------------------
+#======================================================================
 
 # --- Cleaning age_group column ---
 # --- Identifying all the unique responses in age_group ---
@@ -90,7 +109,7 @@ new_data <- new_data %>%
 # --- Checking age_group levels ---
 levels(new_data$age_group)
 
-#-----------------------------------------------------------------------
+#======================================================================
 
 # --- Cleaning study_level column ---
 # --- Identifying all the unique responses in study_level ---
@@ -111,14 +130,14 @@ new_data <- new_data %>%
 # --- Checking age_group levels ---
 levels(new_data$study_level)
 
-#-----------------------------------------------------------------------
+#======================================================================
 
 # --- Cleaning year_of_study column ---
 # --- Identifying all the unique responses in year_of_study 
 unique_year_responses <- new_data %>%
   select(year_of_study) %>%
   unlist() %>%
-  unique() %>%
+  unique()
 print(unique_year_responses)
 
 # --- Cleaning "7=Missing" responses ---
@@ -132,32 +151,32 @@ new_data <- new_data %>%
 # --- Checking year_of_study levels ---
 levels(new_data$study_level)
 
-#------------------------------------------------------------------------  
-    
+#======================================================================  
+
+# --- Cleaning IAT items ---    
 # --- Identifying all unique response categories from IAT items ---
 unique_iat_responses <- new_data %>%
   select(starts_with("iat_")) %>%
   unlist() %>%
   unique()
 print(unique_iat_responses)
-  
-# --- Cleaning IAT responses ---
 
-iat_map <- c ("1=Rarely" = 1,
-              "2=Occasionally" = 2,
-              "3=Frequently" = 3,
-              "4=Often" = 4,
-              "5=Always"=5,
-              "0=Does not Apply" = NA_real_,
-              "99=Missing" = NA_real_,
-              "NA" = NA)
+# --- Extracting numeric codes from strings ---
 new_data <- new_data %>%
-  mutate(across(starts_with("iat_"), ~ {x <- str_trim(as.character(.x))
-  unname(iat_map[x]) }))
+  mutate(across(starts_with("iat_"),
+                ~ as.numeric(str_extract(as.character(.), "[0-9]+"))))
 
+# --- Replacing invalid codes (0 and 99) with NA ---
+new_data <- new_data %>%
+  mutate(across(starts_with("iat_"),
+                ~ ifelse(. %in% c(0, 99), NA, .)))
+
+# --- Checking IAT responses ---
+summary(select(new_data, starts_with("iat_")))
+unique(unlist(select(new_data, starts_with("iat_"))))
 head(select(new_data, starts_with("iat_")))
 
-#-----------------------------------------------------------------------
+#======================================================================
   
 # --- Identifying all unique response categories from SRQ items ---
 unique_srq_responses <- new_data %>%
@@ -166,27 +185,44 @@ unique_srq_responses <- new_data %>%
   unique()
 print(unique_srq_responses)
 
-# --- Cleaning SRQ responses ---
-# --- Changing NA responses to 0 ---
-
 new_data <- new_data %>%
-  mutate(across(starts_with("srq_"), ~ as.integer(!is.na(.))))
+  mutate(across(starts_with("srq_"),
+                ~ as.numeric(case_when(
+                  . %in% c("1", 1, "Yes", "TRUE") ~ 1,      # Mark "Yes"/1 as 1
+                  . %in% c("0", 0, "No", "FALSE") ~ 0,      # Mark "No"/0 as 0
+                  str_detect(as.character(.), "7") ~ NA_real_, # Treat "7=Missing" as NA
+                  TRUE ~ as.numeric(str_extract(as.character(.), "[0-9]+")) # Extract digits if any remain
+                ))))
 
-head(select(new_data, starts_with("srq_")))
-new_data$total_srq
+# --- Checking SRQ responses ---
+unique(unlist(select(new_data, starts_with("srq_"))))
 
-# --- Checking the types ---
+#======================================================================
+
+# --- Checking the types of all the variables ---
 sapply(select(new_data, starts_with("iat_")), class)
 sapply(select(new_data, starts_with("srq_")), class)
 
-#-----------------------------------------------------------------------
-  
+#======================================================================
+
+# --- Computing total SRQ number and CMD variable (Common Mental Disorder) --- 
+new_data <- new_data %>%
+  mutate(
+    total_srq = rowSums(select(., starts_with("srq_")), na.rm = TRUE),
+    CMD_bin   = ifelse(total_srq >= 8, 1, 0))
+
+# --- Checking CMD variation --- 
+summary(data_internet$total_srq)
+table(data_internet$CMD_bin)
+
+#======================================================================
+
 # --- Saving clean data ---
 dir.create(here("data"), showWarnings = FALSE)
 write.csv(new_data, here("data", "Internet_Addiction_Malawi_Data_clean.csv"))
 
-#----------------------------------------------------------------------
+#======================================================================
 
-# End
+# --- End of Script 01 ---
 
-
+#======================================================================
