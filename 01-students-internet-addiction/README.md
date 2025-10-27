@@ -2,7 +2,7 @@
 
 ## Overview
 This project investigates the relationship between **Problematic Internet Use** (measured via the Internet Addiction Test, IAT) and **Common Mental Disorder (CMD)** (measured via the SRQ-20) among Malawian university students.  
-Using **multivariable logistic regression**, the analysis evaluates whether higher IAT
+Using **multivariable logistic regression**, the analysis evaluates whether higher IAT scores are associated with increased odds of probable CMD, while accounting for key demographic factors.
 
 
 ---
