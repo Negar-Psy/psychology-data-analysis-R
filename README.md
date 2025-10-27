@@ -24,12 +24,7 @@ It also serves as a personal academic portfolio demonstrating continuous learnin
 
 ### [01 — Students’ Internet Addiction](01-students-internet-addiction)
 
-An analysis of the **Internet Addiction Test (IAT)** and **Self-Reporting Questionnaire (SRQ-20)** among university students in Malawi.  
-
-This project explores:
-- The **psychometric structure** and **measurement invariance** of the IAT  
-- The relationship between **Internet Addiction** and **Common Mental Disorders (CMDs)**  
-- A fully reproducible data workflow using `tidyverse`, `lavaan`, and `targets`  
+An analysis of the **Internet Addiction Test (IAT)** and **Self-Reporting Questionnaire (SRQ-20)** among university students in Malawi.    
 
 📄 **See full project details:** [01-students-internet-addiction →](01-students-internet-addiction/README.md)
 
