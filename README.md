@@ -83,8 +83,8 @@ Datasets are cited and remain under their respective authors’ original license
 
 ---
 
-> *“Science becomes stronger when shared, clearer when explained, and more beautiful when reproduced.”*  
-> — *Negar Alizadeh*
+> *“The best thing a human being can do is to help another human being know more.”*  
+
 
 
 
