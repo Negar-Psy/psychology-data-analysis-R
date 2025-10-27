@@ -1,0 +1,33 @@
+
+---
+title: "Project 01: Internet Addiction and Common Mental Disorder"
+author: "Negar Alizadeh"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    number_sections: true
+---
+
+# Introduction
+
+This report summarizes logistic regression testing how Internet Addiction scores relate
+to Common Mental Disorder (CMD) in Malawian students.
+
+# Methods
+
+Multivariable logistic regression adjusting for:
+- Gender
+- Age group
+- Study level
+- Discipline
+
+CMD defined as SRQ-20 ≥ 8 (probable CMD = 1, no CMD = 0).
+
+# Results
+
+## Adjusted Odds Ratios
+
+

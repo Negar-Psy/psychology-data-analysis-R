@@ -1,21 +1,21 @@
 
 Call:
-glm(formula = CMD_bin ~ total_iat_z + gender + age_group + study_level + 
-    discipline, family = binomial, data = data_internet)
+glm(formula = CMD_bin ~ total_iat + gender + age_group + study_level + 
+    discipline, family = binomial(link = "logit"), data = data_internet)
 
 Coefficients:
-                           Estimate Std. Error z value Pr(>|z|)    
-(Intercept)               -0.840674   0.470540  -1.787  0.07400 .  
-total_iat_z                0.803224   0.086335   9.304  < 2e-16 ***
-genderMale                -0.479510   0.172559  -2.779  0.00546 ** 
-age_group20-24            -0.173758   0.201765  -0.861  0.38913    
-age_group25-29             0.080067   0.276282   0.290  0.77197    
-age_group30-34            -0.765806   0.482031  -1.589  0.11213    
-age_group35-39            -0.717612   0.683356  -1.050  0.29366    
-age_groupOther             0.288060   0.894314   0.322  0.74738    
-study_levelUndergraduate   0.033972   0.430699   0.079  0.93713    
-disciplineScience         -0.003878   0.186845  -0.021  0.98344    
-disciplineOther          -14.671073 433.103898  -0.034  0.97298    
+                                         Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                             -17.28593  433.10415  -0.040  0.96816    
+total_iat                                 0.04503    0.00484   9.304  < 2e-16 ***
+genderMale                               -0.47951    0.17256  -2.779  0.00546 ** 
+age_group20-24                           -0.17376    0.20176  -0.861  0.38913    
+age_group25-29                            0.08007    0.27628   0.290  0.77197    
+age_group30-34                           -0.76581    0.48203  -1.589  0.11213    
+age_group35-39                           -0.71761    0.68336  -1.050  0.29366    
+age_group40+                              0.28806    0.89431   0.322  0.74738    
+study_levelUndergraduate                  0.03397    0.43070   0.079  0.93713    
+disciplineHumanities and Social Science  14.67107  433.10390   0.034  0.97298    
+disciplineScience                        14.66719  433.10388   0.034  0.97298    
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
