@@ -24,7 +24,7 @@ It also serves as a personal academic portfolio demonstrating continuous learnin
 
 ### [01 — Students’ Internet Addiction](01-students-internet-addiction)
 
-An analysis of the **Internet Addiction Test (IAT)** and **Self-Reporting Questionnaire (SRQ-20)** among university students in Malawi.    
+An analysis of the **Internet Addiction Test (IAT)** and **Common Mental Disorder (CMD)** among university students in Malawi.    
 
 📄 **See full project details:** [01-students-internet-addiction →](01-students-internet-addiction/README.md)
 
