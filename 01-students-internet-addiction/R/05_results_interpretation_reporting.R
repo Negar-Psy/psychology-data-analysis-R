@@ -122,6 +122,12 @@ cat("
 # 7.1 Load libraries
 library(rmarkdown)
 
+# Set the correct working directory so RMarkdown can find the file
+setwd("~/Downloads/R-projects/psychology-data-analysis-R/01-students-internet-addiction")  # Adjust to your actual project path
+
+# Read the odds_ratios.csv file explicitly (absolute path, no relative path)
+odds_ratios <- read.csv("reports/odds_ratios.csv")  # Relative path works once setwd() is used
+
 # 7.2 Define the RMarkdown text to be created ---
 report_text <- '
 ---
@@ -162,8 +168,8 @@ library(readr)
 library(dplyr)
 library(gt)
 
-# Load the odds ratio table saved from Script 04
-OR_table <- read.csv("reports/odds_ratios.csv")
+# Use the odds_ratios data that was read earlier
+OR_table <- odds_ratios  # This ensures the odds_ratios.csv file is being used
 
 # Clean and format for readability
 OR_clean <- OR_table %>%
@@ -193,81 +199,7 @@ gt(OR_clean) %>%
   ) %>%
   fmt_number(columns = c(Odds_Ratio, CI_Lower, CI_Upper), decimals = 2) %>%
   tab_source_note("Note: OR > 1 indicates higher odds of CMD; OR < 1 indicates lower odds.")
-```
 
-## Model Performance and Diagnostics
-Model calibration and discrimination were assessed using several metrics:
-- **Hosmer–Lemeshow goodness-of-fit test**  
-- **McFadden pseudo R²**  
-- **ROC curve and AUC**  
-- **Variance Inflation Factors (VIF)** for multicollinearity  
-
-### Hosmer-Lemeshow Test
-```{r echo=FALSE}
-library(ResourceSelection)
-
-# Perform Hosmer-Lemeshow test
-hoslem <- hoslem.test(model_logit$y, fitted(model_logit), g = 10)
-hoslem
-```
-*The Hosmer-Lemeshow test evaluates the goodness-of-fit of the model. A p-value > 0.05 indicates a good fit.*
-
-### Pseudo R²
-```{r echo=FALSE}
-# Print pseudo R² measures
-library(pscl)
-pseudo_r2 <- pR2(model_logit)
-pseudo_r2
-```
-*McFadden's R² is one of the most commonly used pseudo-R² values for logistic regression models. Values closer to 1 indicate better fit.*
-  
-  ### ROC Curve
-  ```{r echo=FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics("reports/roc_curve.png")
-```
-*The ROC curve displays the trade-off between sensitivity and specificity. An AUC greater than 0.7 indicates that the model has acceptable discriminative ability.*
-  
-  ### Forest Plot of Odds Ratios
-  ```{r echo=FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics("reports/forest_plot_OR.png")
-```
-*The forest plot displays adjusted odds ratios and their 95% confidence intervals for each predictor. A value above 1.0 suggests an increase in the odds of CMD, while a value below 1.0 suggests a decrease.*
-  
-  ### Predicted Probability by IAT Score
-  ```{r echo=FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics("reports/predicted_prob_CMD_IAT.png")
-```
-*The predicted probability plot shows how the probability of CMD changes across the range of IAT scores for a typical student (female, age 18–24, undergraduate, health sciences).*
-  
-  # Interpretation
-  Students with higher Internet Addiction Test scores showed **increased odds**
-  of reporting symptoms consistent with a common mental disorder, even after
-adjusting for demographics.
-
-The logistic model provided an acceptable fit and reasonable discrimination
-(AUC > 0.7).  The findings highlight problematic internet use as a
-significant correlate of mental health outcomes among Malawian students.
-
-# Reproducibility
-All code and data are available at:
-  [GitHub Repository](https://github.com/Negar-Psy/psychology-data-analysis-R)
-
-```{r, echo=FALSE}
-sessionInfo()
-```
-'
-
-# 7.3 Write the RMarkdown text to a file ---
-if (!dir.exists("reports")) dir.create("reports", recursive = TRUE)
-
-writeLines(report_text, "reports/Project01_Report.Rmd")
-
-# 7.4 Render the RMarkdown to HTML ---
-rmarkdown::render("reports/Project01_Report.Rmd")
-
-cat("
-✅ HTML report successfully created at: reports/Project01_Report.html
-")
 
 #======================================================================
 
