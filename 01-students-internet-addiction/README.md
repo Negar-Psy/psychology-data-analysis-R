@@ -1,11 +1,9 @@
 # Students’ Internet Addiction
 
 ## Overview
-This project analyzes open data on the link between **Internet Addiction** and **mental health** among college students in Malawi.  
-We build on the original study by:
+This project investigates the relationship between **Problematic Internet Use** (measured via the Internet Addiction Test, IAT) and **Common Mental Disorder (CMD)** (measured via the SRQ-20) among Malawian university students.  
+Using **multivariable logistic regression**, the analysis evaluates whether higher IAT
 
-- Evaluating the factor structure and measurement invariance of the Internet Addiction Test (IAT).
-- Modeling the (potentially non-linear) association between IAT and Common Mental Disorder (CMD; SRQ-20) using modern, reproducible R workflows.
 
 ---
 
