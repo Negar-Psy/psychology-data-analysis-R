@@ -41,23 +41,99 @@ Mwakilama, E. P., Jamu, E. S., Senganimalunje, L., & Manda, T. D. (2022). *Data 
 
 ---
 
-## Project Files
+## Research Objectives
 
-- **`data/`**  
-  Contains prepared (cleaned and non-identifiable) datasets used for analysis, along with a data dictionary describing each variable.
+- Validate the psychometric properties of the Internet Addiction Test (IAT).
+- Examine the relationship between IAT scores and probable Common Mental Disorder (CMD).
+- Explore the effects of demographic variables on mental health outcomes.
 
-- **`analysis.R`**  
-  The main R script that runs the complete workflow: data cleaning, statistical analysis, and creation of visualizations.
+## Repository Structure
 
-- **`report.qmd`**  
-  A reproducible Quarto report that documents the full study, including the research question, aims, methods, results, and discussion.
+- **R/00_download_data.R**  
+  Script to download and prepare raw data for analysis.
+
+- **R/01_clean_score.R**  
+  Performs cleaning and preprocessing of raw data, computes IAT and CMD scores.
+
+- **R/02_setup_and_load.R**  
+  Loads cleaned datasets and sets up necessary libraries and environment.
+
+- **R/03_data_explore_describe.R**  
+  Conducts exploratory data analysis and descriptive statistics.
+
+- **R/04_statistical_analysis.R**  
+  Fits logistic regression models and performs hypothesis testing.
+
+- **R/05_results_interpretation_reporting.R**  
+  Generates summary tables, plots, and final reports consolidating findings.
+
+- **data/**  
+  Contains anonymized, cleaned datasets and a comprehensive data dictionary.
+
+- **reports/**  
+  Includes output reports, visualizations, and model summaries in HTML, PDF, or Word formats.
+
+- **README.md**  
+  This documentation file.
+
+## How to Use This Repository
+
+### Prerequisites
+
+- R (version 4.0 or higher)  
+- RStudio IDE (recommended)  
+- Required R packages (managed via `renv` or install manually)
+
+### Getting Started
+
+1. Clone the repository with:
+
+    ```
+    git clone https://github.com/Negar-Psy/psychology-data-analysis-R.git
+    ```
+
+2. Open the project folder in RStudio.
+
+3. Install required packages if not already installed:
+
+    ```
+    install.packages(c("dplyr", "ggplot2", "broom", "gt", "gtsummary", "readr", "rmarkdown", "quarto"))
+    ```
+
+4. Execute scripts in sequential order to reproduce the analysis:
+
+    - `R/00_download_data.R` – Download raw data.  
+    - `R/01_clean_score.R` – Data cleaning and scoring.  
+    - `R/02_setup_and_load.R` – Load prepared data.  
+    - `R/03_data_explore_describe.R` – Explore and describe data.  
+    - `R/04_statistical_analysis.R` – Statistical modeling.  
+    - `R/05_results_interpretation_reporting.R` – Generate reports and figures.
+
+5. Render the interactive report with Quarto:
+
+    ```
+    quarto::quarto_render("report.qmd")
+    ```
+
+6. Inspect outputs in the `reports/` directory (tables, plots, summaries).
+
+## Contribution
+
+Contributions, issues, and feature requests are welcome! Please fork the repository and create pull requests for collaborative improvements.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
 
-## How to Run
 
-1. Clone this repo to your computer.  
-2. In RStudio, open `analysis.R` to run the cleaning/analysis pipeline.  
-3. Render `report.qmd` in RStudio (click **Render**) or run from console:  
-   ```bash
-   quarto render report.qmd
+
+
+
+
+
+
+
+
+
